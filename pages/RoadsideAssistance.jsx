@@ -7,13 +7,6 @@ import servicetruck from '../Assets/images/Roadside_Assistance/servicetruck.png'
 const RoadsideAssitance = () => (
   <div id="roadmain">
     <div id="roadmaininner">
-      <div className="lg:hidden flex justify-center">
-        <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold ">
-          <span className="block ">
-            <span className="text-kaltire-red">24 / 7</span> ROADSIDE ASSITANCE
-          </span>
-        </h2>
-      </div>
       <div className="bg-bg-white-1">
         <div className="lg:grid lg:grid-cols-2">
           <div className="lg:relative lg:mt-32">
@@ -24,9 +17,9 @@ const RoadsideAssitance = () => (
             />
           </div>
 
-          <div className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
-            <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
-              <span className="block ">
+          <div className="py-12 xl:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
+            <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold">
+              <span className="block">
                 <span className="text-kaltire-red">24 / 7</span> ROADSIDE
                 ASSITANCE
               </span>
@@ -75,7 +68,7 @@ const RoadsideAssitance = () => (
             <div className="block pt-4" id="PhoneEmailRoad" />
             <div id="InnerphoneEmailRoad" className="flex">
               <div id="Hotline" className="flex items-center">
-                <div id="Hotline-first" className="md:mx-4 mx-2">
+                <div id="Hotline-first" className="xl:mx-4 mx-2">
                   <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
                 </div>
                 <div id="Hotline-second">
@@ -83,8 +76,8 @@ const RoadsideAssitance = () => (
                   <p>800-808-0025</p>
                 </div>
               </div>
-              <div id="LiveChat" className="md:ml-6 ml-10 flex items-center">
-                <div id="LivechatFirst" className="md:mx-4 mx-2">
+              <div id="LiveChat" className="xl:ml-6 ml-10 flex items-center">
+                <div id="LivechatFirst" className="xl:mx-4 mx-2">
                   <BiMessageDetail className="h-6 w-6 text-kaltire-red" />
                 </div>
                 <div id="LivechatSecond">
