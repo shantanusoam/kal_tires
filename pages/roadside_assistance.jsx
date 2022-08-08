@@ -1,24 +1,25 @@
 import Image from 'next/image';
+import { IoIosCheckmark } from 'react-icons/io';
+import { MdLocalPhone } from 'react-icons/md';
+import { BiMessageDetail } from 'react-icons/bi';
 import servicetruck from '../Assets/images/Roadside_Assistance/servicetruck.png';
-// import {IoCheckmarkOutline} from
 
 const roadsideAssitance = () => (
   <div id="roadmain">
     <div id="roadmaininner">
       <div className="bg-bg-white-1">
         <div className="lg:grid lg:grid-cols-2">
-          <div className="lg:relative ">
+          <div className="lg:relative lg:mt-32">
             <Image
-              className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md"
+              className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
               src={servicetruck}
               alt="servicetruck"
             />
           </div>
 
-          <div className="py-24 px-10 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
-            <h2 className="text-4xl tracking-tight  text-black font-poppins font-semibold">
+          <div className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
+            <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold">
               <span className="block">
-                {' '}
                 <span className="text-kaltire-red">24 / 7</span> ROADSIDE
                 ASSITANCE
               </span>
@@ -30,19 +31,64 @@ const roadsideAssitance = () => (
               of type and scrambled it to make a type specimen book.
             </p>
             <div className="inline-block py-3">
-              {/* <a
-                href="/"
-                className="inline-block py-3 px-4 bg-white hover:bg-indigo-100 text-indigo-500 font-medium border border-transparent rounded-md"
-              >
-                Sign up for free
-              </a> */}
-
-              <p className="py-2">Lorem ipsum dolor sit.</p>
-              <p className="py-2">Lorem ipsum dolor sit.</p>
-              <p className="py-2">Lorem ipsum dolor sit.</p>
-              <p className="py-2">Lorem ipsum dolor sit.</p>
+              <p className="pt-2">
+                <div className="flex items-center ">
+                  <span>
+                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
+                  </span>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </p>
+              <p className="pt-2">
+                <div className="flex items-center ">
+                  <span>
+                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
+                  </span>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </p>
+              <p className="pt-2">
+                <div className="flex items-center ">
+                  <span>
+                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
+                  </span>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </p>
+              <p className="pt-2">
+                <div className="flex items-center ">
+                  <span>
+                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
+                  </span>
+                  <span>Lorem ipsum dolor sit.</span>
+                </div>
+              </p>
+            </div>
+            {/* The Phone and Email icons start  */}
+            <div className="block pt-4" id="PhoneEmailRoad" />
+            <div id="InnerphoneEmailRoad" className="flex">
+              <div id="Hotline" className="flex items-center">
+                <div id="Hotline-first" className="md:mx-4 mx-2">
+                  <MdLocalPhone className="h-6 w-6 text-kaltire-red" />
+                </div>
+                <div id="Hotline-second">
+                  <h1 className="font-bold">Hot Line</h1>
+                  <p>800-808-0025</p>
+                </div>
+              </div>
+              <div id="LiveChat" className="md:ml-6 ml-10 flex items-center">
+                <div id="LivechatFirst" className="md:mx-4 mx-2">
+                  <BiMessageDetail className="h-6 w-6 text-kaltire-red" />
+                </div>
+                <div id="LivechatSecond">
+                  <h1 className="font-bold">Live Chat </h1>
+                  <p>Chat with experts</p>
+                </div>
+              </div>
             </div>
           </div>
+
+          {/* The Phone and Email icons end */}
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ module.exports = {
         'file-accept': '#00e676',
         'file-reject': '#ff1744',
         'overlay-black': 'rgba(0, 0, 0, 0.8)',
-        'bg-white-1': '#E5E5E5',
+        'bg-white-1': '#FFFFFF',
       },
       width: {
         215: '215px',
