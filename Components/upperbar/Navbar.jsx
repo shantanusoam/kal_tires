@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white">
       <div className="flexBetween z-10 mx-20  flex-row">
-        <div className="ml-8 flex flex-row justify-start items-center">
+        <div className="ml-8 flex flex-row justify-start items-center cursor-pointer">
           <Link href="/">
             <div
               className={`group border-solid  border-r px-10 py-3 border-grey  ${

@@ -8,7 +8,7 @@ import LiveChat from '../../Assets/Icons/live_chat-icon.png';
 const Topbar = () => (
   <div className="bg-black">
     <div className="flexBetween z-10 mx-20 p-3 flex-row">
-      <div className="ml-8 flex-1 flex flex-row justify-start items-center md:hidden">
+      <div className="ml-8 flex-1 lg:flex flex-row justify-start items-center hidden">
         <Image
           src={Navlogo}
           alt="place"
