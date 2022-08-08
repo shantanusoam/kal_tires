@@ -6,7 +6,7 @@ const Navbar = () => (
   <nav className="flexBetween w-full  z-10  flex-row">
     <div className="flex flex-1 flex-row justify-start">
       <Link href="/">
-        <div>Photo</div>
+        <div>Navbar</div>
       </Link>
     </div>
   </nav>
