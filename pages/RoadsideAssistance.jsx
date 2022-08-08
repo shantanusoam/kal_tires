@@ -7,6 +7,13 @@ import servicetruck from '../Assets/images/Roadside_Assistance/servicetruck.png'
 const RoadsideAssitance = () => (
   <div id="roadmain">
     <div id="roadmaininner">
+      <div className="lg:hidden flex justify-center">
+        <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold ">
+          <span className="block ">
+            <span className="text-kaltire-red">24 / 7</span> ROADSIDE ASSITANCE
+          </span>
+        </h2>
+      </div>
       <div className="bg-bg-white-1">
         <div className="lg:grid lg:grid-cols-2">
           <div className="lg:relative lg:mt-32">
@@ -18,8 +25,8 @@ const RoadsideAssitance = () => (
           </div>
 
           <div className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto">
-            <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold">
-              <span className="block">
+            <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold hidden lg:block">
+              <span className="block ">
                 <span className="text-kaltire-red">24 / 7</span> ROADSIDE
                 ASSITANCE
               </span>
