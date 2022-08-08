@@ -5,7 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.nft-gradient {
+body {
+  margin: 0;
+  /* font-family: sans-serif; */
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.tire-gradient {
   background: linear-gradient(
     101.12deg,
     #eb1484 27.35%,
