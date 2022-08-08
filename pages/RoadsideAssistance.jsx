@@ -4,7 +4,7 @@ import { MdLocalPhone } from 'react-icons/md';
 import { BiMessageDetail } from 'react-icons/bi';
 import servicetruck from '../Assets/images/Roadside_Assistance/servicetruck.png';
 
-const roadsideAssitance = () => (
+const RoadsideAssitance = () => (
   <div id="roadmain">
     <div id="roadmaininner">
       <div className="bg-bg-white-1">
@@ -94,4 +94,4 @@ const roadsideAssitance = () => (
     </div>
   </div>
 );
-export default roadsideAssitance;
+export default RoadsideAssitance;
