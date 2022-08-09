@@ -21,7 +21,7 @@ const Footer = () => {
       style={{
         backgroundImage:
           'url(' +
-          'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
+          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Footer.png?token=GHSAT0AAAAAABXLNQCZXFSX5WKXZQU4L2GUYXST7JQ' +
           ')',
         backgroundBlendMode: 'difference',
         backgroundPosition: 'center',
@@ -32,7 +32,7 @@ const Footer = () => {
     >
       <div className="p-8  md:p-0 xl:block flex justify-center ">
         <img
-          src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
+          src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYAYIPCATWFDFGBLJWYXSUABQ"
           alt="logo"
           className="2xl:h-28 xl:h-24  h-20 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
         />
@@ -89,7 +89,7 @@ const Footer = () => {
               <div className="xl:ml-16 w-max justify- start ml-4 xl:mt-0">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
+                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYAYIPCATWFDFGBLJWYXSUABQ"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 md:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
@@ -711,7 +711,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
               <div className="xl:ml-16 w-max justify-center items-center  flex flex-col ml-4 xl:mt-0">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
+                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYAYIPCATWFDFGBLJWYXSUABQ"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 xl:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
