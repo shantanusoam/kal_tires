@@ -12,7 +12,7 @@ import onsitenine from '../../Assets/Images/Onsite_Service/onsitenine.png';
 import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
 
 const Onsiteservice = () => (
-  <div id="onsitemain">
+  <div id="onsitemain" className="block">
     <div id="onsitemaininner" className="h-Onsiteheight  ">
       <div id="maingrid">
         <div
