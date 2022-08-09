@@ -1,6 +1,7 @@
-import { useState, useEffect, useContext } from 'react';
+// import { useState, useEffect, useContext } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+// import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 
 const Navbar = () => {
   const router = useRouter();
@@ -57,6 +58,46 @@ const Navbar = () => {
                 }  `}
               >
                 What We Offer
+                {/* <NavigationMenu.Root>
+                  <NavigationMenu.List>
+                    <NavigationMenu.Item>
+                      <NavigationMenu.Trigger>
+                        What We Offer
+                      </NavigationMenu.Trigger>
+                      <NavigationMenu.Content>
+                        <div>
+                          Use CSS keyframes or any animation library of your
+                          choice.
+                        </div>
+                        <div>
+                          Tested in a range of browsers and assistive
+                          technologies.
+                        </div>
+                        <div>
+                          Radix Primitives releases and their changelogs.
+                        </div>
+                      </NavigationMenu.Content>
+                    </NavigationMenu.Item>
+
+                    <NavigationMenu.Item>
+                      <NavigationMenu.Link />
+                    </NavigationMenu.Item>
+
+                    <NavigationMenu.Item>
+                      <NavigationMenu.Trigger />
+                      <NavigationMenu.Content>
+                        <NavigationMenu.Sub>
+                          <NavigationMenu.List />
+                          <NavigationMenu.Viewport />
+                        </NavigationMenu.Sub>
+                      </NavigationMenu.Content>
+                    </NavigationMenu.Item>
+
+                    <NavigationMenu.Indicator />
+                  </NavigationMenu.List>
+
+                  <NavigationMenu.Viewport />
+                </NavigationMenu.Root> */}
               </div>
             </div>
           </Link>
