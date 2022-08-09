@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 
 import { RiInstagramFill } from 'react-icons/ri';
 // import {SiInstagram} from 'react-icons/si';
-
+import { IoMdMail } from 'react-icons/io';
+import { MdPhone, MdEmail, MdLocationPin } from 'react-icons/md';
 import { Link as Slink } from 'react-scroll';
 
 import { IoLogoFacebook, IoLogoLinkedin } from 'react-icons/io';
-
-import { MdEmail } from 'react-icons/md';
 
 const Footer = () => {
   const [Hinventery, setHinventery] = useState(false);
@@ -17,11 +16,11 @@ const Footer = () => {
   const [Hcontactus, setHcontactus] = useState(false);
   return (
     <div
-      className="bg-footerbackground md:bg-cover bg-contain "
+      className="bg-footerbackground md:bg-cover bg-contain bg-black"
       style={{
         backgroundImage:
           'url(' +
-          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Footer.png?token=GHSAT0AAAAAABXLNQCZXFSX5WKXZQU4L2GUYXST7JQ' +
+          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Footer.png?token=GHSAT0AAAAAABXLNQCYVWP757NGILMZFAV2YXSWO6Q' +
           ')',
         backgroundBlendMode: 'difference',
         backgroundPosition: 'center',
@@ -30,11 +29,11 @@ const Footer = () => {
         width: 'full',
       }}
     >
-      <div className="p-8  md:p-0 xl:block flex justify-center ">
+      <div className="p-20s  md:p-0 xl:block flex justify-center ">
         <img
-          src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYAYIPCATWFDFGBLJWYXSUABQ"
+          src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
           alt="logo"
-          className="2xl:h-28 xl:h-24  h-20 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
+          className="2xl:h-24 xl:h-20  h-16 xl:hidden flex md:ml-0 xl:ml-36 mt-4"
         />
       </div>
 
@@ -43,7 +42,7 @@ const Footer = () => {
         // style={{
         //   backgroundImage:
         //     'url(' +
-        //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroups/main/src/assets/Map/map-bg.png' +
+        //     'https://raw.githubusercontent.com/Kalfreight-In/Kaltires/main/src/assets/Map/map-bg.png' +
         //     ')',
 
         //   backgroundPosition: 'center',
@@ -57,7 +56,7 @@ const Footer = () => {
             <RiFacebookCircleLine
               onClick={() =>
                 window.open(
-                  'https://www.facebook.com/Kalgroups/',
+                  'https://www.facebook.com/Kaltires/',
                   '_blank'
                 )
               }
@@ -66,7 +65,7 @@ const Footer = () => {
             <AiOutlineInstagram
               onClick={() =>
                 window.open(
-                  'https://www.instagram.com/Kalgroup/',
+                  'https://www.instagram.com/Kaltire/',
                   '_blank'
                 )
               }
@@ -75,7 +74,7 @@ const Footer = () => {
             <TiSocialLinkedinCircular
               onClick={() =>
                 window.open(
-                  'https://www.linkedin.com/company/Kalgroup',
+                  'https://www.linkedin.com/company/Kaltire',
                   '_blank'
                 )
               }
@@ -89,7 +88,7 @@ const Footer = () => {
               <div className="xl:ml-16 w-max justify- start ml-4 xl:mt-0">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYAYIPCATWFDFGBLJWYXSUABQ"
+                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 md:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
@@ -101,11 +100,7 @@ const Footer = () => {
                     {/* <AiOutlineClockCircle className="md:h-8 h-6 md:w-8 w-6 " /> */}
 
                     <a href="tel:8003858006" target="_blank" rel="noreferrer">
-                      <img
-                        src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
-                        alt=""
-                        className="h-4 w-6 "
-                      />
+                      <IoMdMail className="md:h-8 h-6 md:w-8 w-6 " />
                     </a>
                   </div>
                   <div className="block xl:ml-0 ">
@@ -114,7 +109,7 @@ const Footer = () => {
                     </div>
 
                     <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold cursor-pointer">
-                      info@kalgroup.com
+                      info@kaltire.com
                     </div>
                   </div>
                 </div>
@@ -122,19 +117,30 @@ const Footer = () => {
                 <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
                   <div className="mt-2">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                      <img
-                        src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
-                        alt=""
-                        className="text-white"
-                        width={20}
-                      />
+                      <MdPhone className="md:h-8 h-6 md:w-8 w-6 " />
+                    </a>
+                  </div>
+                  <div className="ml-4 flex flexcenter">
+                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      {' '}
+                      <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
+                        800-385-8006
+                      </div>{' '}
+                    </a>
+                  </div>
+                </div>
+                <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
+                  <div className="mt-2">
+                    <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <MdLocationPin className="md:h-8 h-6 md:w-8 w-6 " />
                     </a>
                   </div>
                   <div className="ml-4">
                     <a href="tel:8009770010" target="_blank" rel="noreferrer">
                       {' '}
                       <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
-                        800-385-8006
+                        Headquarters: 10156 Live Oak Ave <br /> Fontana, CA
+                        92335
                       </div>{' '}
                     </a>
                   </div>
@@ -156,7 +162,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 <RiFacebookCircleLine
   onClick={() =>
     window.open(
-      'https://www.facebook.com/Kalgroups/',
+      'https://www.facebook.com/Kaltires/',
       '_blank'
     )
   }
@@ -165,7 +171,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 <AiOutlineInstagram
   onClick={() =>
     window.open(
-      'https://www.instagram.com/Kalgroup/',
+      'https://www.instagram.com/Kaltire/',
       '_blank'
     )
   }
@@ -174,7 +180,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 <TiSocialLinkedinCircular
   onClick={() =>
     window.open(
-      'https://www.linkedin.com/company/Kalgroup',
+      'https://www.linkedin.com/company/Kaltire',
       '_blank'
     )
   }
@@ -240,74 +246,6 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     >
                       KAL Partz
                     </a> */}
-                  </div>
-                </div>
-
-                <div className="sm:flex-1 mt-4 sm:mt-0 ">
-                  <div
-                    className="text-white cursor-pointer"
-                    onClick={() => {
-                      SethWa(!H_WA);
-                      setHinventery(false);
-                      setHquicklinks(false);
-                      setHcontactus(false);
-                    }}
-                  >
-                    <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
-                      Business
-                    </h1>
-                  </div>
-
-                  <div
-                    className={`text-white 2xl:leading-8 leading-6 xl:block   ${
-                      H_WA ? '' : 'hidden'
-                    }`}
-                  >
-                    <a
-                      href="https://kalfreight.com/"
-                      target="_blank"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
-                      rel="noreferrer"
-                    >
-                      <span className="text-xl px-1"> </span>
-                      KAL Freight
-                    </a>
-                    <a
-                      href="https://kaltrailers.com/"
-                      target="_blank"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
-                      rel="noreferrer"
-                    >
-                      <span className="text-xl px-1"> </span>
-                      KAL Trailers & Leasing
-                    </a>
-                    <a
-                      href="https://kaltires.com/"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className="text-xl px-1"> </span>
-                      KVL Tires
-                    </a>
-                    <a
-                      href="https://kalpartz.com/"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <span className="text-xl px-1"> </span>
-                      KAL Partz
-                    </a>
-                    <a
-                      href="https://kalway.com/"
-                      target="_blank"
-                      className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
-                      rel="noreferrer"
-                    >
-                      <span className="text-xl px-1"> </span>
-                      KALWAY
-                    </a>
                   </div>
                 </div>
 
@@ -577,7 +515,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         rel="noreferrer"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center cursor-pointer md:ml-0 ml-8"
                       >
-                        info@kalgroup.com
+                        info@kaltire.com
                       </a> */}
                     </div>
                     {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start">
@@ -599,7 +537,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <RiFacebookCircleLine
                           onClick={() =>
                             window.open(
-                              'https://www.facebook.com/Kalgroups/',
+                              'https://www.facebook.com/Kaltires/',
                               '_blank'
                             )
                           }
@@ -608,7 +546,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <AiOutlineInstagram
                           onClick={() =>
                             window.open(
-                              'https://www.instagram.com/Kalgroup/',
+                              'https://www.instagram.com/Kaltire/',
                               '_blank'
                             )
                           }
@@ -617,7 +555,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <TiSocialLinkedinCircular
                           onClick={() =>
                             window.open(
-                              'https://www.linkedin.com/company/Kalgroup',
+                              'https://www.linkedin.com/company/Kaltire',
                               '_blank'
                             )
                           }
@@ -678,7 +616,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/kalgroupusa',
+                            'https://www.facebook.com/kaltireusa',
                             '_blank'
                           )
                         }
@@ -687,7 +625,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            'https://www.instagram.com/kalgroupusa/',
+                            'https://www.instagram.com/kaltireusa/',
                             '_blank'
                           )
                         }
@@ -711,7 +649,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
               <div className="xl:ml-16 w-max justify-center items-center  flex flex-col ml-4 xl:mt-0">
                 <div>
                   <img
-                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYAYIPCATWFDFGBLJWYXSUABQ"
+                    src="https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/NavLogo.png?token=GHSAT0AAAAAABXLNQCYFS4TDD6SA7WIQEWCYXSWPRA"
                     alt="logo"
                     className="2xl:h-28 xl:h-24  h-20 xl:block hidden"
                     to="mailto:umarkhurshid3@gmail.com"
@@ -721,18 +659,18 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   <div className="text-white flex justify-center  xl:mt-12 mt-4 ml-0 ">
                     <div className="mt-0">
                       {/* <img
-                  src="https://raw.githubusercontent.com/kalfreight-in/Kalgroups/master/src/assets/Images/Vectoremail.svg"
+                  src="https://raw.githubusercontent.com/kalfreight-in/Kaltires/master/src/assets/Images/Vectoremail.svg"
                   alt=""
                   className="text-white mt-2 "
                 /> */}
-                      <a href="mailto:info@kalgroup.com">
+                      <a href="mailto:info@kaltire.com">
                         <MdEmail className="md:h-8 h-6 md:w-8 w-6  " />
                       </a>
                     </div>
                     <div className="block xl:ml-3 ml-2 text-center">
                       {/* <div className="block">Working hours</div> */}
                       <div className="md:text-xl text-lg font-bold xl:font-semibold text-center">
-                        <a href="mailto:info@kalgroup.com">info@kalgroup.com</a>
+                        <a href="mailto:info@kaltire.com">info@kaltire.com</a>
 
                         {/* (Monday to Friday)  */}
                       </div>
@@ -742,15 +680,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   <div className="text-white flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                     <div className="mt-2">
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
-                        <img
-                          src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
-                          alt=""
-                          className="text-white h-4 w-4"
-                          width={50}
-                        />
+                        <MdPhone className="md:h-6 h-6 md:w-6 w-6 " />
                       </a>
                     </div>
-                    <div className="ml-4">
+                    <div className="ml-4 flex flexstart">
                       {/* <div className="block">
                   Why speak to robots when
                   <br></br>
@@ -821,7 +754,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <IoLogoFacebook
                       onClick={() =>
                         window.open(
-                          'https://www.facebook.com/kalgroupusa',
+                          'https://www.facebook.com/kaltireusa',
                           '_blank'
                         )
                       }
@@ -830,7 +763,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <RiInstagramFill
                       onClick={() =>
                         window.open(
-                          'https://www.instagram.com/kalgroupusa/',
+                          'https://www.instagram.com/kaltireusa/',
                           '_blank'
                         )
                       }
@@ -855,7 +788,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                 <RiFacebookCircleLine
                   onClick={() =>
                     window.open(
-                      'https://www.facebook.com/Kalgroups/',
+                      'https://www.facebook.com/Kaltires/',
                       '_blank'
                     )
                   }
@@ -864,7 +797,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                 <AiOutlineInstagram
                   onClick={() =>
                     window.open(
-                      'https://www.instagram.com/Kalgroup/',
+                      'https://www.instagram.com/Kaltire/',
                       '_blank'
                     )
                   }
@@ -873,7 +806,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                 <TiSocialLinkedinCircular
                   onClick={() =>
                     window.open(
-                      'https://www.linkedin.com/company/Kalgroup',
+                      'https://www.linkedin.com/company/Kaltire',
                       '_blank'
                     )
                   }
@@ -897,8 +830,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
       {/* <div id="mainiconcontainer">
       <div id="allicons" className="flex justify-end mx-48 ">
       <RiFacebookCircleLine onClick={()=> window.open('https://www.facebook.com/kaxlroupusa','_blank')} className="text-white mx-2 cursor-pointer h-1.8rem w-1.8rem" />
-      <aiOutlineInstagram onClick={()=> window.open('https://www.instagram.com/Kalgroup/', '_blank')} className='text-white  mx-2 cursor-pointer h-1.8rem w-1.8rem' />
-      <TiSocialLinkedinCircular onClick={()=> window.open('https://www.linkedin.com/company/Kalgroup','_blank')} className="text-white mx-2 cursor-pointer h-8 w-8" />
+      <aiOutlineInstagram onClick={()=> window.open('https://www.instagram.com/Kaltire/', '_blank')} className='text-white  mx-2 cursor-pointer h-1.8rem w-1.8rem' />
+      <TiSocialLinkedinCircular onClick={()=> window.open('https://www.linkedin.com/company/Kaltire','_blank')} className="text-white mx-2 cursor-pointer h-8 w-8" />
       </div> */}
       {/* </div>   */}
     </div>
