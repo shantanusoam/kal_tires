@@ -40,6 +40,8 @@ module.exports = {
       height: {
         300: '300px',
         557: '557px',
+        Onsiteheight: '80vh',
+        onsitegridheight: '70vh',
       },
       inset: {
         45: '45%',
