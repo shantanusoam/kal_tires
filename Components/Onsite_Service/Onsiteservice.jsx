@@ -13,11 +13,11 @@ import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
 
 const Onsiteservice = () => (
   <div id="onsitemain">
-    <div id="onsitemaininner" className="h-Onsiteheight  ">
+    <div id="onsitemaininner" className="block">
       <div id="maingrid">
         <div
           id="grid"
-          className="grid gap-x-4    bg-bg-white-1 h-onsitegridheight  grid-cols-onsiteTemplate pt-20"
+          className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-4"
         >
           <div className="bg-bg-white-1 text-center">
             <div className="flex justify-center">
@@ -166,7 +166,7 @@ const Onsiteservice = () => (
           </div>
         </div>
       </div>
-      <div id="secondonsite">
+      <div id="secondonsite" className="mt-12">
         <div id="innersecondonsite" className="text-center">
           <h1 className="md:text-2xl font-bold font-poppins">
             Do you Need Roadside Assistance Now?
@@ -176,9 +176,12 @@ const Onsiteservice = () => (
             pandemic, and women with only one listing have collectively earned
             over a half billion{' '}
           </p>
-          <div className="flex justify-center">
-            <button className="flex items-center bg-kaltire-red p-2 rounded-md">
-              <ImPhone /> &nbsp; 800 - 808 0025
+          <div className="flex justify-center mt-8">
+            <button className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold">
+              <span>
+                <ImPhone className="text-2xl" />
+              </span>
+              &nbsp; 800-808-0025
             </button>
           </div>
         </div>
