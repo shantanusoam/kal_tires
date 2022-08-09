@@ -23,11 +23,16 @@ module.exports = {
         'file-reject': '#ff1744',
         'overlay-black': 'rgba(0, 0, 0, 0.8)',
         'bg-white-1': '#FFFFFF',
+        'onsite-text': '#514A4A',
+      },
+      gridTemplateColumns: {
+        onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
       },
       width: {
         215: '215px',
         357: '357px',
         557: '557px',
+        onsiteimage: '155px',
       },
       minWidth: {
         155: '155px',
@@ -40,8 +45,9 @@ module.exports = {
       height: {
         300: '300px',
         557: '557px',
-        Onsiteheight: '80vh',
-        onsitegridheight: '70vh',
+        Onsiteheight: '90vh',
+        onsitegridheight: '80vh',
+        onsiteimage: '170px',
       },
       inset: {
         45: '45%',
