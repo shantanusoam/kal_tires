@@ -24,6 +24,7 @@ module.exports = {
         'overlay-black': 'rgba(0, 0, 0, 0.8)',
         'bg-white-1': '#FFFFFF',
         'onsite-text': '#514A4A',
+        'onsite-heading': '#323232',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
@@ -45,8 +46,8 @@ module.exports = {
       height: {
         300: '300px',
         557: '557px',
-        Onsiteheight: '90vh',
-        onsitegridheight: '80vh',
+        Onsiteheight: '95vh',
+        onsitegridheight: '75vh',
         onsiteimage: '170px',
       },
       inset: {
