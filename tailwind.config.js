@@ -35,6 +35,10 @@ module.exports = {
         557: '557px',
         onsiteimage: '155px',
       },
+      backgroundImage: {
+        'footer-texture':
+          "url('https://raw.githubusercontent.com/kalfreight-in/BigRigGroups/master/src/assets/Images/abouthomeimage.png')",
+      },
       minWidth: {
         155: '155px',
         190: '190px',
