@@ -10,6 +10,10 @@ import onsiteseven from '../../Assets/Images/Onsite_Service/onsiteseven.png';
 import onsiteeight from '../../Assets/Images/Onsite_Service/onsiteeight.png';
 import onsitenine from '../../Assets/Images/Onsite_Service/onsitenine.png';
 import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
+import { Onsitecomponentdata } from '../../data';
+
+// const data = Onsitecomponentdata.grids[0];
+// console.log(data);
 
 const Onsiteservice = () => (
   <div id="onsitemain">
@@ -26,7 +30,7 @@ const Onsiteservice = () => (
               </div>
             </div>
 
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins ">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins ">
               On Site Service
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -40,7 +44,7 @@ const Onsiteservice = () => (
                 <Image src={onsitetwo} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Nationwide Presence
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -54,7 +58,7 @@ const Onsiteservice = () => (
                 <Image src={onsitethree} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Tire Replacement
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -72,7 +76,7 @@ const Onsiteservice = () => (
                 <Image src={onsitefour} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Light Mechanical Services
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -86,7 +90,7 @@ const Onsiteservice = () => (
                 <Image src={onsitefive} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Wheel mounting
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -100,7 +104,7 @@ const Onsiteservice = () => (
                 <Image src={onsitesix} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Commercial Oil Change
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -114,7 +118,7 @@ const Onsiteservice = () => (
                 <Image src={onsiteseven} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Competitive Price
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -128,8 +132,8 @@ const Onsiteservice = () => (
                 <Image src={onsiteeight} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
-              Freindly & Experience Technicians
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
+              Freindly & Experience <br /> Technicians
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -142,7 +146,7 @@ const Onsiteservice = () => (
                 <Image src={onsitenine} alt="service" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Tire Balancing
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -156,7 +160,7 @@ const Onsiteservice = () => (
                 <Image src={onsiteten} alt="services" />
               </div>
             </div>
-            <h1 className="lg:text-2xl text-xl font-bold font-poppins">
+            <h1 className="lg:text-xl text-lg font-bold font-poppins">
               Flat Tire Repair
             </h1>
             <p className="pt-6 lg:text-sm font-normal px-16">
@@ -166,7 +170,29 @@ const Onsiteservice = () => (
           </div>
         </div>
       </div>
-      <div id="secondonsite" className="mt-12">
+
+      {Onsitecomponentdata.map((onsite) => (
+        <div id="secondonsite" className="mt-12 mb-4" key={onsite.id}>
+          <div id="innersecondonsite" className="text-center">
+            <h1 className="md:text-2xl font-bold font-poppins">
+              {onsite.heading}
+            </h1>
+            <p className="pt-2 md:text-xl text-onsite-text font-poppins lg:px-80 px-8">
+              {onsite.desc}
+            </p>
+            <div className="flex justify-center mt-8">
+              <button className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold">
+                <span>
+                  <ImPhone className="text-2xl" />
+                </span>
+                &nbsp; {onsite.BTN}
+              </button>
+            </div>
+          </div>
+        </div>
+      ))}
+
+      {/* <div id="secondonsite" className="mt-12 mb-4">
         <div id="innersecondonsite" className="text-center">
           <h1 className="md:text-2xl font-bold font-poppins">
             Do you Need Roadside Assistance Now?
@@ -185,7 +211,7 @@ const Onsiteservice = () => (
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   </div>
 );
