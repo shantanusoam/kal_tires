@@ -14,7 +14,7 @@ background-image: radial-gradient(#42424280,#9f9e9e17),   url(${(props) =>
       
       width: 100%;
       position: relative;
-      height: 100vh;
+      height: 70vh;
       
       z-index: 1;
       @media screen and (max-width: 1025px) {
@@ -62,7 +62,7 @@ bottom: 0;
 right: 0;
 overflow: hidden;
 width: 100vw;
-height: 100vh;
+height: 70vh;
 
 @media screen and (max-width: 1025px) {
 

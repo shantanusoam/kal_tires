@@ -44,13 +44,14 @@ const HeroSection = ({ data }) => (
           {data.Heading}
         </div>
         <div className="lg:flex flex-row 2xl:mt-12 mt-4 hidden">
-          <div className="lg:border-l-2 border-x-amber-400 sm:block hidden" />
+          <div className="lg:border-l-4 border-x-amber-400 sm:block hidden" />
 
           <div className="lg:ml-8 ml-0">
             <div className="2xl:text-2xl text-white font-xl">{data.desc}</div>
-            <div className="lg:mt-4 mt-16 text-lg flex flex-row lg:justify-start justify-center  lg:items-start items-center">
+            <div className="lg:mt-10 mt-16 text-lg lg:justify-start justify-center  lg:items-start items-center">
               <Link
                 to="AboutUs-Scroll"
+                className="flex flex-row "
                 smooth
                 duration={500}
                 spy
@@ -61,18 +62,18 @@ const HeroSection = ({ data }) => (
                   //   onClick={() => {
                   //     setCTA('800-977-0010');
                   //   }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
+                  className="text-white bg-red-500  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  hover:shadow-2xl hover:bg-red-700 flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
                 >
                   <p>{data.CTA1.heading}</p>
                 </button>
-                {/* <button
+                <button
                   //   onClick={() => {
                   //     setCTA('800-977-0010');
                   //   }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
+                  className="text-white  ml-8 border-2 hover:border-0 border-white  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left transition duration-300 ease-in-out hover:bg-red-500"
                 >
                   <p>Learn More</p>
-                </button> */}
+                </button>
               </Link>
             </div>
           </div>
