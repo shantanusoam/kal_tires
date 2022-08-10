@@ -17,7 +17,7 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={` group-hover:text-red-500 ${
                   router.pathname === '/'
                     ? 'text-white font-bold group-hover:text-white'
                     : ''
@@ -34,7 +34,7 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={` group-hover:text-red-500 ${
                   router.pathname === '/AboutUs'
                     ? 'text-white font-bold group-hover:text-white'
                     : ''
@@ -51,7 +51,7 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={` group-hover:text-red-500 ${
                   router.pathname === '/WhatWeOffer'
                     ? 'text-white font-bold group-hover:text-white'
                     : ''
@@ -108,7 +108,7 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={` group-hover:text-red-500 ${
                   router.pathname === '/Inventory'
                     ? 'text-white font-bold group-hover:text-white'
                     : ''
@@ -125,7 +125,7 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={` group-hover:text-red-500  ${
                   router.pathname === '/RoadsideAssistance'
                     ? 'text-white font-bold group-hover:text-white'
                     : ''
@@ -142,7 +142,7 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={` group-hover:text-red-500 ${
                   router.pathname === '/Locations'
                     ? 'text-white font-bold group-hover:text-white'
                     : ''

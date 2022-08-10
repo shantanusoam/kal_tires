@@ -31,25 +31,31 @@ export const BrandCompnentHeader = [
   {
     id: '1',
     imageurl:
-      'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Freightliner-logo.png',
-    heading: 'Freightliner',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/BKT-Logo.png',
+    heading: 'BKT-Logo',
   },
   {
     id: '2',
     imageurl:
-      'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Kenworth-logo.png',
-    heading: 'Kenworth',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/ameristeel-logo.png',
+    heading: 'ameristeel-logo',
   },
   {
     id: '3',
     imageurl:
-      'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ',
-    heading: 'Peterbilt',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/apollo-tyres-logo.png',
+    heading: 'apollo-tyres-logo',
   },
   {
     id: '4',
     imageurl:
-      'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Vanguard-logo.png',
-    heading: 'Vanguard',
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/continental-logo.png',
+    heading: 'continental-logo',
+  },
+  {
+    id: '4',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BrandsLogo/general%20logo.png',
+    heading: 'general logo',
   },
 ];
