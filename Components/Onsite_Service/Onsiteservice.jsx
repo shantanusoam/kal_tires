@@ -13,7 +13,7 @@ import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
 
 const Onsiteservice = () => (
   <div id="onsitemain">
-    <div id="onsitemaininner" className="h-Onsiteheight  ">
+    <div id="onsitemaininner">
       <div id="maingrid">
         <div
           id="grid"
