@@ -17,7 +17,7 @@ import { Onsitecomponentdata } from '../../data';
 
 const Onsiteservice = () => (
   <div id="onsitemain">
-    <div id="onsitemaininner" className="h-Onsiteheight  ">
+    <div id="onsitemaininner">
       <div id="maingrid">
         <div
           id="grid"
