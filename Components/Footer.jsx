@@ -16,7 +16,7 @@ const Footer = () => {
   const [Hcontactus, setHcontactus] = useState(false);
   return (
     <div
-      className="bg-footerbackground md:bg-cover bg-contain bg-black"
+      className="bg-footerbackground md:bg-cover bg-contain bg-black block"
       style={{
         backgroundImage:
           'url(' +
