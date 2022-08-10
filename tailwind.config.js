@@ -29,6 +29,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
+        servicesTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
       },
       width: {
         215: '215px',

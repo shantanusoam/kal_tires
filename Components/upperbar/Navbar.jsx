@@ -44,7 +44,7 @@ const Navbar = () => {
               </div>
             </div>
           </Link>
-          <Link href="/">
+          <Link href="/WhatWeOffer">
             <div
               className={`group border-solid  border-r px-10 py-3 border-grey  ${
                 router.pathname === '/WhatWeOffer' ? 'bg-red-500' : ''
