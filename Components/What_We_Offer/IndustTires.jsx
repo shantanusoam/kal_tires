@@ -11,18 +11,19 @@ export const IndustTires = () => (
   <div id="specialmain">
     <div
       id="specialmaininner"
+      className="py-24 px-12"
       style={{
         backgroundImage:
           // eslint-disable-next-line operator-linebreak
           'url(' +
-          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png' +
+          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/Industrialtires/industbackg.png' +
           ')',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}
     >
-      <div className="bg-white">
-        <div className="lg:grid lg:grid-cols-6 items-center">
+      <div className="">
+        <div className="grid grid-cols-6 items-end">
           <div className="block">
             <div className="lg:relative  self-start ">
               <Image
@@ -31,6 +32,10 @@ export const IndustTires = () => (
                 alt="tires"
               />
             </div>
+
+            <h1 className="text-center text-2xl font-poppins font-bold">
+              Industrial Tires
+            </h1>
           </div>
           <div className="block">
             <div className="lg:relative  self-start ">
@@ -40,6 +45,10 @@ export const IndustTires = () => (
                 alt="tires"
               />
             </div>
+
+            <h1 className="text-center text-2xl font-poppins font-bold">
+              Industrial Tires
+            </h1>
           </div>
           <div className="block">
             <div className="lg:relative  self-start ">
@@ -49,6 +58,10 @@ export const IndustTires = () => (
                 alt="tires"
               />
             </div>
+
+            <h1 className="flex justify-center items-center text-2xl font-poppins font-bold">
+              Industrial Tires
+            </h1>
           </div>
           <div className="block">
             <div className="lg:relative self-start ">
@@ -58,6 +71,10 @@ export const IndustTires = () => (
                 alt="tires"
               />
             </div>
+
+            <h1 className="text-center text-2xl font-poppins font-bold">
+              Industrial Tires
+            </h1>
           </div>
           <div className="block">
             <div className="lg:relative  self-start ">
@@ -67,6 +84,10 @@ export const IndustTires = () => (
                 alt="tires"
               />
             </div>
+
+            <h1 className="text-center text-2xl font-poppins font-bold">
+              Industrial Tires
+            </h1>
           </div>
           <div className="block">
             <div className="lg:relative  self-start ">
@@ -76,6 +97,10 @@ export const IndustTires = () => (
                 alt="tires"
               />
             </div>
+
+            <h1 className="text-center text-2xl font-poppins font-bold">
+              Industrial Tires
+            </h1>
           </div>
         </div>
       </div>
