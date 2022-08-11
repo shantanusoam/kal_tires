@@ -15,7 +15,7 @@ export const Speciality = () => {
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
             'url(' +
-            'https://imgs.search.brave.com/GrfnQ-zJDTkpWaR1VxdB1DRW2ogONDwvgyJcExQzCwU/rs:fit:1200:664:1/g:ce/aHR0cHM6Ly9oZWxw/eC5hZG9iZS5jb20v/Y29udGVudC9kYW0v/aGVscC9lbi9waG90/b3Nob3AvdXNpbmcv/Y29udmVydC1jb2xv/ci1pbWFnZS1ibGFj/ay13aGl0ZS9qY3Jf/Y29udGVudC9tYWlu/LXBhcnMvYmVmb3Jl/X2FuZF9hZnRlci9p/bWFnZS1iZWZvcmUv/TGFuZHNjYXBlLUNv/bG9yLmpwZw' +
+            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/speciality/cooperbackg.png' +
             ')',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',

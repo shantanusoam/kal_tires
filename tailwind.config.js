@@ -25,7 +25,7 @@ module.exports = {
         'bg-white-1': '#FFFFFF',
         'onsite-text': '#514A4A',
         'onsite-heading': '#323232',
-        'speciality-background': '#ffffffbf',
+        'speciality-background': '#ffffff00',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
