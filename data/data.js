@@ -59,3 +59,181 @@ export const BrandCompnentHeader = [
     heading: 'general logo',
   },
 ];
+export const FeaturedProductsData = [
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Earthmover Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Earthmover Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Earthmover Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Earthmover Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Earthmover Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Industrial Tires',
+  },
+  {
+    heading: 'TRANSFORMING TRUCKING DYNAMICS',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/HomePageSlider-1.png',
+    CTA1: { heading: 'Inventory', link: 'contactus' },
+    Category: 'Commercial Tires',
+  },
+];
