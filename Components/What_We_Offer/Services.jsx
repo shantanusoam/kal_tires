@@ -16,6 +16,15 @@ export const Services = () => (
       <div
         id="onsitemaininner"
         className="bg-black 2xl:px-56 lg:px-16 lg:py-12 2xl:py-16 "
+        style={{
+          backgroundImage:
+            // eslint-disable-next-line operator-linebreak
+            'url(' +
+            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
+            ')',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
       >
         <h1 className="text-white text-5xl font-bold font-poppins pb-8">
           Services
