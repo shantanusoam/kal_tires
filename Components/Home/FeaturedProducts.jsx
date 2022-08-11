@@ -42,7 +42,7 @@ const FeaturedProducts = () => (
       </div>
 
       <div>
-        <div className="grid  grid-cols-onsiteTemplate gap-4 ">
+        <div className="grid  grid-cols-onsiteTemplate2 gap-4 ">
           {FeaturedProductsData.map((data) => (
             <div className="">
               <img src={data.imageurl} alt="data" />
