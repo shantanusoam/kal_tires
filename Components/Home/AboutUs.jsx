@@ -2,7 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
 import { BiMessageDetail } from 'react-icons/bi';
-import blacktire from '../../Assets/Images/Whatweoffer/speciality/blacktire.png';
+import AboutUsTire from '../../Assets/Images/Home/AboutUsTire.png';
+import TireIcon from '../../Assets/Images/Home/Tire_Icon.png';
+
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
 export const AboutUs = () => {
@@ -15,34 +17,35 @@ export const AboutUs = () => {
           backgroundImage:
             // eslint-disable-next-line operator-linebreak
             'url(' +
-            'https://imgs.search.brave.com/GrfnQ-zJDTkpWaR1VxdB1DRW2ogONDwvgyJcExQzCwU/rs:fit:1200:664:1/g:ce/aHR0cHM6Ly9oZWxw/eC5hZG9iZS5jb20v/Y29udGVudC9kYW0v/aGVscC9lbi9waG90/b3Nob3AvdXNpbmcv/Y29udmVydC1jb2xv/ci1pbWFnZS1ibGFj/ay13aGl0ZS9qY3Jf/Y29udGVudC9tYWlu/LXBhcnMvYmVmb3Jl/X2FuZF9hZnRlci9p/bWFnZS1iZWZvcmUv/TGFuZHNjYXBlLUNv/bG9yLmpwZw' +
+            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png' +
             ')',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}
       >
-        <div className="bg-speciality-background">
-          <div className="lg:grid lg:grid-cols-3 items-center">
+        <div className="">
+          <div className="lg:grid lg:grid-cols-12 items-center ">
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
-                <span className="block">Speciality</span>
+                <span className="block">About us</span>
               </h2>
             </div>
             <div className="lg:hidden block">
               <div className="lg:relative lg:mt-4 self-start ">
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
-                  src={blacktire}
+                  src={AboutUsTire}
                   alt="tires"
                 />
               </div>
             </div>
+            <div />
             <div
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
-              className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left"
+              className="lg:py-12 md:px-10 px-6 lg:px-0  col-span-4 max-w-5xl  mx-auto  text-center lg:text-left "
             >
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
-                <span className="block">Speciality</span>
+                <span className="block">About us</span>
               </h2>
               <p className="text-black mt-5">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -64,42 +67,40 @@ export const AboutUs = () => {
                 rem quis, enim, velit provident asperiores voluptatem voluptate
                 esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
                 Quaerat omnis optio reiciendis asperiores soluta dolorem?
+                <br />
+                <br />
+                cum animi, totam assumenda. Commodi quaerat consequuntur maxime,
+                rem quis, enim, velit provident asperiores voluptatem voluptate
+                esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
+                Quaerat omnis optio reiciendis asperiores soluta dolorem?
               </p>
+
               {/* <div className="inline-block py-3">
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-            </div> */}
+
               {/* The Phone and Email icons start  */}
+              <div className="flex flex-row ">
+                <div className="flex flex-col bg-zinc-50 p-8 mr -4">
+                  <Image src={TireIcon} />
+                  <div className="text-center">
+                    Commercial <br />
+                    Tires
+                  </div>
+                </div>
+                <div className="flex flex-col bg-zinc-50 p-8 mx-4">
+                  <Image src={TireIcon} />
+                  <div className="text-center">
+                    Agricultural <br />
+                  </div>
+                </div>
+                <div className="flex flex-col bg-zinc-50 p-8 mx-4">
+                  <Image src={TireIcon} />
+                  <div className="text-center">
+                    Agricultural <br />
+                    Tires
+                  </div>
+                </div>
+              </div>
+
               <div className="block pt-4 " id="PhoneEmailRoad" />
               <div
                 id="InnerphoneEmailRoad"
@@ -118,29 +119,13 @@ export const AboutUs = () => {
                       <p>800-808-0025</p>
                     </div>
                   </div>
-                  <div
-                    id="LiveChat"
-                    className="md:ml-6 ml-10 flex items-center lg:pr-0 pr-4 "
-                  >
-                    <div id="LivechatFirst" className="md:mx-4 mx-2">
-                      <BiMessageDetail className="h-6 w-6 text-kaltire-red" />
-                    </div>
-                    <div id="LivechatSecond">
-                      <h1 className="font-bold">Live Chat </h1>
-                      <p>Chat with experts</p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
-
-            <div className="lg:block hidden">
-              <div className="lg:relative lg:mt-4 self-start ">
-                <Image
-                  className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
-                  src={blacktire}
-                  alt="tires"
-                />
+            <div />
+            <div className="lg:block hidden col-span-6  mr-20">
+              <div className="  ">
+                <Image className="  " src={AboutUsTire} alt="tires" />
               </div>
             </div>
             <div
