@@ -1,171 +1,116 @@
 import React from 'react';
 import Image from 'next/image';
-import { ImPhone } from 'react-icons/im';
-import onsiteone from '../../Assets/Images/Onsite_Service/onsiteone.png';
-import onsitetwo from '../../Assets/Images/Onsite_Service/onsitetwo.png';
-import onsitethree from '../../Assets/Images/Onsite_Service/onsitethree.png';
-import onsitefour from '../../Assets/Images/Onsite_Service/onsitefour.png';
-import onsitefive from '../../Assets/Images/Onsite_Service/onsitefive.png';
-import onsitesix from '../../Assets/Images/Onsite_Service/onsitesix.png';
-import onsiteseven from '../../Assets/Images/Onsite_Service/onsiteseven.png';
-import onsiteeight from '../../Assets/Images/Onsite_Service/onsiteeight.png';
-import onsitenine from '../../Assets/Images/Onsite_Service/onsitenine.png';
-import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
+import one from '../../Assets/Images/Whatweoffer/services/one.png';
+import two from '../../Assets/Images/Whatweoffer/services/two.png';
+import three from '../../Assets/Images/Whatweoffer/services/three.png';
+import four from '../../Assets/Images/Whatweoffer/services/four.png';
+import five from '../../Assets/Images/Whatweoffer/services/five.png';
+import six from '../../Assets/Images/Whatweoffer/services/six.png';
+import seven from '../../Assets/Images/Whatweoffer/services/seven.png';
+import eight from '../../Assets/Images/Whatweoffer/services/eight.png';
+import servicesbackground from '../../Assets/Images/Whatweoffer/services/services background.png';
 
 export const Services = () => (
   <div>
     <div id="onsitemain">
-      <div id="onsitemaininner">
+      <div
+        id="onsitemaininner"
+        className="bg-black 2xl:px-56 lg:px-16 lg:py-12 2xl:py-16 "
+        style={{
+          backgroundImage:
+            // eslint-disable-next-line operator-linebreak
+            'url(' +
+            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
+            ')',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
+      >
+        <h1 className="text-white text-5xl font-bold font-poppins pb-8">
+          Services
+        </h1>
         <div id="maingrid">
-          <div
-            id="grid"
-            className="grid gap-x-4  gap-y-4  bg-kaltire-red   grid-cols-servicesTemplate pt-20 px-4"
-          >
-            <div className="bg-yellow-200 text-center">
+          <div id="grid" className="grid gap-4 grid-cols-servicesTemplate">
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
               <div className="flex justify-center">
-                <div className="w-onsiteimage h-onsiteimage flex">
-                  <Image src={onsiteone} alt="service" />
+                <div className="w-onsiteimage h-onsiteimage">
+                  <Image src={one} alt="service" />
                 </div>
               </div>
-
-              <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                On Site Service
+              <h1 className="lg:text-xl text-lg font-bold font-poppins">
+                Tire & Wheel Balancing
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
               <div className="flex justify-center">
                 <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsitetwo} alt="service" />
+                  <Image src={two} alt="service" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Nationwide Presence
+                Retread Services
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
-              <div className="flex justify-center">
-                <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsitethree} alt="service" />
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
+              <div className="flex justify-center ">
+                <div className="w-onsiteimage h-onsiteimage pt-6">
+                  <Image src={three} alt="service" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Tire Replacement
+                Pick Up & Delivery Services
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
-              <div
-                className=" flex justify-center
-           "
-              >
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
+              <div className="flex justify-center">
                 <div className="w-onsiteimage h-onsiteimage">
-                  {' '}
-                  <Image src={onsitefour} alt="service" />
+                  <Image src={four} alt="service" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Light Mechanical Services
+                24x7 Roadside Assistance
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
               <div className="flex justify-center">
                 <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsitefive} alt="service" />
+                  <Image src={five} alt="service" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Wheel mounting
+                Truck & Trailer Alingment
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
               <div className="flex justify-center">
                 <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsitesix} alt="service" />
+                  <Image src={six} alt="service" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Commercial Oil Change
+                Mounted Wheel Program
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
               <div className="flex justify-center">
                 <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsiteseven} alt="service" />
+                  <Image src={seven} alt="service" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Competitive Price
+                Heavy Duty Front-End Work
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            <div className="bg-yellow-200 text-center">
+            <div className="bg-kaltire-red  text-center text-white border-white border-2">
               <div className="flex justify-center">
                 <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsiteeight} alt="service" />
+                  <Image src={eight} alt="services" />
                 </div>
               </div>
               <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Freindly & Experience <br /> Technicians
+                Scheduled Maintainance program
               </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
             </div>
-            {/* <div className="bg-yellow-200 text-center">
-              <div className="flex justify-center">
-                <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsitenine} alt="service" />
-                </div>
-              </div>
-              <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Tire Balancing
-              </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
-            </div> */}
-            {/* <div className="bg-yellow-200 text-center">
-              <div className="flex justify-center">
-                <div className="w-onsiteimage h-onsiteimage">
-                  <Image src={onsiteten} alt="services" />
-                </div>
-              </div>
-              <h1 className="lg:text-xl text-lg font-bold font-poppins">
-                Flat Tire Repair
-              </h1>
-              <p className="pt-6 lg:text-sm font-normal px-16">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.{' '}
-              </p>
-            </div> */}
           </div>
         </div>
       </div>
