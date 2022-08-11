@@ -131,3 +131,10 @@ body {
     opacity: 1;
   }
 }
+
+.swiper-button-prev {
+  color: #ffffff !important;
+}
+.swiper-button-next {
+  color: #ffffff !important;
+}
