@@ -10,7 +10,7 @@ import onsiteseven from '../../Assets/Images/Onsite_Service/onsiteseven.png';
 import onsiteeight from '../../Assets/Images/Onsite_Service/onsiteeight.png';
 import onsitenine from '../../Assets/Images/Onsite_Service/onsitenine.png';
 import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
-import { Onsitecomponentdata } from '../../data';
+import { Onsitecomponentdata } from '../../data/data';
 
 // const data = Onsitecomponentdata.grids[0];
 // console.log(data);
