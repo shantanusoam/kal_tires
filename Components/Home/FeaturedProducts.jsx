@@ -7,7 +7,7 @@ const Fdata = FeaturedProductsData;
 const FeaturedProducts = () => {
   const [Feaaturedata, setFeaaturedata] = useState(Fdata);
   function SetDataFunction(params) {
-    setFeaaturedata(Fdata.filter((item) => item.id === params));
+    setFeaaturedata(Fdata.filter((item) => item.Category === params));
   }
   return (
     <div className="bg-neutral-200">
