@@ -17,10 +17,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={` group-hover:text-red-500 ${
+                className={`  ${
                   router.pathname === '/'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 Home
@@ -34,10 +34,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={` group-hover:text-red-500 ${
+                className={`  ${
                   router.pathname === '/AboutUs'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 About Us
@@ -51,10 +51,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={` group-hover:text-red-500 ${
+                className={`  ${
                   router.pathname === '/WhatWeOffer'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 What We Offer
@@ -108,10 +108,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={` group-hover:text-red-500 ${
+                className={`  ${
                   router.pathname === '/Inventory'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 Inventory
@@ -125,10 +125,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={` group-hover:text-red-500  ${
+                className={`  ${
                   router.pathname === '/RoadsideAssistance'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500 '
                 }  `}
               >
                 Roadside Assistance
@@ -142,10 +142,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={` group-hover:text-red-500 ${
+                className={`  ${
                   router.pathname === '/Locations'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 Locations
@@ -159,10 +159,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={`text-black  ${
                   router.pathname === '/CreditApplication'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 Credit Application
@@ -176,10 +176,10 @@ const Navbar = () => {
               }`}
             >
               <div
-                className={`text-black group-hover:text-red-500 ${
+                className={`text-black  ${
                   router.pathname === '/ContactUs'
                     ? 'text-white font-bold group-hover:text-white'
-                    : ''
+                    : 'group-hover:text-red-500'
                 }  `}
               >
                 Contact Us
