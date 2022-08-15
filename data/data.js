@@ -18,6 +18,8 @@ import Commercgroup from '../Assets/Images/Whatweoffer/CommercialTires/commercgr
 import Commercgrouptwo from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
 import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png';
 import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
+import commercegrouptab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png';
+import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
 
 export const HomeSliderData = [
   {
@@ -330,14 +332,15 @@ export const Onsitecomponentdata = [
   },
 ];
 
-<<<<<<< HEAD
 export const CommercialTireone = [
   {
     mainimage: Commercgroup,
+    mainimagetab: commercegrouptab,
     Heading: 'Commercial Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis veritatis! Veniam officia, autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?',
+    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis veritatis! Veniam officia, 
+    autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?`,
     logos: [
       {
         id: 1,
@@ -366,10 +369,12 @@ export const CommercialTireone = [
 export const CommercialTiretwo = [
   {
     mainimage: Commercgrouptwo,
+    mainimagetab: commercegrouptwotab,
     Heading: 'Retread Tires',
     titleone: 'Retread',
     titletwo: 'New Tires',
-    desc: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis veritatis! Veniam officia, autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?',
+    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis
+     veritatis! Veniam officia, autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?`,
     logos: [
       {
         id: 1,
@@ -380,7 +385,8 @@ export const CommercialTiretwo = [
         img: contilifecycle,
       },
     ],
-=======
+  },
+];
 export const HighPerformanceBrands = [
   {
     id: '1',
@@ -421,6 +427,5 @@ export const HighPerformanceBrands = [
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'BKT',
->>>>>>> 6b47ea6fbf5a4ce6991a0b61eb6b8fd7e866eb1f
   },
 ];

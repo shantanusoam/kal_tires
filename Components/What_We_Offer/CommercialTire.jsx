@@ -3,9 +3,6 @@ import Image from 'next/image';
 
 import { CommercialTireone, CommercialTiretwo } from '../../data/data';
 
-// const thedata = [CommercialTireone[0].logos];
-// console.log(thedata);
-// console.log(alldata);
 const CommercialTire = () => {
   const [alldata, setalldata] = useState(CommercialTireone[0]);
   console.log(alldata);
@@ -16,7 +13,7 @@ const CommercialTire = () => {
           <div id="commercemaininner">
             <div className="bg-black">
               <div className="lg:grid lg:grid-cols-3 ">
-                <div className="lg:block ">
+                <div className="lg:block hidden ">
                   <div className="lg:relative self-start ">
                     <Image
                       className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
@@ -25,15 +22,15 @@ const CommercialTire = () => {
                     />
                   </div>
                 </div>
-                {/* <div className="lg:hidden block">
-        <div className="lg:relative lg:mt-4 self-start ">
-          <Image
-            className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
-            src={blacktire}
-            alt="tires"
-          />
-        </div>
-      </div> */}
+                <div className="lg:hidden block ">
+                  <div className="lg:relative lg:mt-4 self-start">
+                    <Image
+                      className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
+                      src={alldata.mainimagetab}
+                      alt="tires"
+                    />
+                  </div>
+                </div>
                 <div className="lg:py-2 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left mt-16 ">
                   <h1 className="text-white font-poppins text-4xl font-bold">
                     {alldata.Heading}
