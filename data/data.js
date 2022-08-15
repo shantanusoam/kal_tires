@@ -324,7 +324,7 @@ export const HighPerformanceBrands = [
   {
     id: '1',
     heading: 'Cotinental',
-    logo: '',
-    src: '',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    Image: '',
   },
 ];
