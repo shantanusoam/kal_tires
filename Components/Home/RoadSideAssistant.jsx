@@ -11,7 +11,17 @@ const RoadSideAssistant = () => {
   const isDesktop = useMediaQuery('(min-width:1148px)');
   return (
     <div>
-      <div>
+      <div
+        style={{
+          backgroundImage:
+            // eslint-disable-next-line operator-linebreak
+            'url(' +
+            'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png' +
+            ')',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+        }}
+      >
         <div className="">
           <div className="lg:grid lg:grid-cols-12 items-center ">
             <div className="lg:hidden block">
@@ -39,15 +49,6 @@ const RoadSideAssistant = () => {
             <div
               //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
               className=" md:px-10 px-6 lg:px-0  col-span-5 max-w-5xl  mx-auto  text-center lg:text-left "
-              style={{
-                backgroundImage:
-                  // eslint-disable-next-line operator-linebreak
-                  'url(' +
-                  'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/BgRoadsidehome.png' +
-                  ')',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-              }}
             >
               <h2 className="text-5xl tracking-tight  text-black font-poppins font-bold lg:block hidden">
                 <span className="text-red-500">24/7 </span>

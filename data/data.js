@@ -332,61 +332,6 @@ export const Onsitecomponentdata = [
   },
 ];
 
-export const CommercialTireone = [
-  {
-    mainimage: Commercgroup,
-    mainimagetab: commercegrouptab,
-    Heading: 'Commercial Tires',
-    titleone: 'Retread',
-    titletwo: 'New Tires',
-    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis veritatis! Veniam officia, 
-    autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?`,
-    logos: [
-      {
-        id: 1,
-        img: continental,
-      },
-      {
-        id: 2,
-        img: GeneralTire,
-      },
-      {
-        id: 3,
-        img: ameristeel,
-      },
-      {
-        id: 4,
-        img: Apollo,
-      },
-      {
-        id: 5,
-        img: Bkt,
-      },
-    ],
-  },
-];
-
-export const CommercialTiretwo = [
-  {
-    mainimage: Commercgrouptwo,
-    mainimagetab: commercegrouptwotab,
-    Heading: 'Retread Tires',
-    titleone: 'Retread',
-    titletwo: 'New Tires',
-    desc: `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus architecto facere corporis vitae, voluptatem optio molestiae neque omnis doloribus inventore nulla aliquid. Ipsum velit excepturi corporis esse autem blanditiis
-     veritatis! Veniam officia, autem ducimus vitae ex ea. Possimus, magnam, autem repellat inventore voluptate sit tempore soluta cupiditate explicabo quod quos similique debitis temporibus. Maiores officia vitae culpa eum porro fugit cupiditate aliquam, dignissimos adipisci minima voluptate eos enim cum animi, totam assumenda. Commodi quaerat consequuntur maxime, rem quis, enim, velit provident asperiores voluptatem voluptate esse reiciendis vitae ipsa hic. Dolor excepturi et veniam! Quaerat omnis optio reiciendis asperiores soluta dolorem?`,
-    logos: [
-      {
-        id: 1,
-        img: contitread,
-      },
-      {
-        id: 2,
-        img: contilifecycle,
-      },
-    ],
-  },
-];
 export const HighPerformanceBrands = [
   {
     id: '1',
