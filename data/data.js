@@ -325,6 +325,40 @@ export const HighPerformanceBrands = [
     id: '1',
     heading: 'Cotinental',
     logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
-    Image: '',
+    Image:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    src: 'Continental',
+  },
+  {
+    id: '2',
+    heading: 'Cotinental',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    Image:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    src: 'Continental',
+  },
+  {
+    id: '3',
+    heading: 'Cotinental',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    Image:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    src: 'Continental',
+  },
+  {
+    id: '4',
+    heading: 'Cotinental',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    Image:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires1.png',
+    bgImage:
+      'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/continental-white-logo.png',
+    src: 'Continental',
   },
 ];
