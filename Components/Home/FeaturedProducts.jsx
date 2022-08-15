@@ -1,4 +1,4 @@
-import { React, useEffect, useState, useRef } from 'react';
+import { React, useState } from 'react';
 
 import { FeaturedProductsData } from '../../data/data';
 
@@ -7,12 +7,7 @@ const Fdata = FeaturedProductsData;
 const FeaturedProducts = () => {
   const [Feaaturedata, setFeaaturedata] = useState(Fdata);
   function SetDataFunction(params) {
-    console.log(`lolllll inset data ${params}`);
-    const pdata = FeaturedProductsData;
-    // Filter data based on params
-    // setFeaaturedata(pdata.filter((item) => item.id === params));
-    setFeaaturedata(pdata.filter((item) => item.Category === params));
-    // console.log(`lolllll ${tempData[0].Category}`);
+    setFeaaturedata(Fdata.filter((item) => item.Category === params));
   }
   return (
     <div className="bg-neutral-200">
