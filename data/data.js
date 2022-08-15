@@ -319,3 +319,12 @@ export const Onsitecomponentdata = [
     ],
   },
 ];
+
+export const HighPerformanceBrands = [
+  {
+    id: '1',
+    heading: 'Cotinental',
+    logo: '',
+    src: '',
+  },
+];
