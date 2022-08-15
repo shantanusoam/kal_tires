@@ -40,6 +40,7 @@ const CommercialTire = () => {
                       <button
                         className="   mr-2 text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red"
                         onClick={() => setalldata(CommercialTireone[0])}
+                        type="button"
                       >
                         {alldata.titleone}
                       </button>
@@ -49,6 +50,7 @@ const CommercialTire = () => {
                       <button
                         className="mr-2 text-center focus:border-b-2 border-white text-white  transition-all duration-100 delay-75 cursor-pointer    focus:text-kaltire-red "
                         onClick={() => setalldata(CommercialTiretwo[0])}
+                        type="button"
                       >
                         {alldata.titletwo}
                       </button>

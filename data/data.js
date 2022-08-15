@@ -9,18 +9,6 @@ import onsiteeight from '../Assets/Images/Onsite_Service/onsiteeight.png';
 import onsitenine from '../Assets/Images/Onsite_Service/onsitenine.png';
 import onsiteten from '../Assets/Images/Onsite_Service/onsiteten.png';
 
-import GeneralTire from '../Assets/Images/Whatweoffer/CommercialTires/General_Tire-Logo.png';
-import ameristeel from '../Assets/Images/Whatweoffer/CommercialTires/ameristeel_logo.png';
-import Apollo from '../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_logo.png';
-import Bkt from '../Assets/Images/Whatweoffer/CommercialTires/BKT-Logo.png';
-import continental from '../Assets/Images/Whatweoffer/CommercialTires/continental-logo-black 2.png';
-import Commercgroup from '../Assets/Images/Whatweoffer/CommercialTires/commercgroup.png';
-import Commercgrouptwo from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
-import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png';
-import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
-import commercegrouptab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png';
-import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
-
 export const HomeSliderData = [
   {
     id: 1,
@@ -351,7 +339,7 @@ export const HighPerformanceBrands = [
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_tires/tires2.png',
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck2.png',
-    src: 'GoodYear',
+    src: 'Continental',
   },
   {
     id: '3',
