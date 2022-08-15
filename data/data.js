@@ -387,7 +387,7 @@ export const CommercialTiretwo = [
     ],
   },
 ];
-export const HighPerformanceBrands = [
+export const HighPerformanceBrandsData = [
   {
     id: '1',
     heading: 'Cotinental',
