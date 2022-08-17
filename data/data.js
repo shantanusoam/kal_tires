@@ -8,7 +8,6 @@ import onsiteseven from '../Assets/Images/Onsite_Service/onsiteseven.png';
 import onsiteeight from '../Assets/Images/Onsite_Service/onsiteeight.png';
 import onsitenine from '../Assets/Images/Onsite_Service/onsitenine.png';
 import onsiteten from '../Assets/Images/Onsite_Service/onsiteten.png';
-
 import GeneralTire from '../Assets/Images/Whatweoffer/CommercialTires/General_Tire-Logo.png';
 import ameristeel from '../Assets/Images/Whatweoffer/CommercialTires/ameristeel_logo.png';
 import Apollo from '../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_logo.png';
@@ -20,6 +19,16 @@ import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadl
 import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
 import commercegrouptab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png';
 import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwotab.png';
+import extrabenefit from '../Assets/Images/Perkbenefits/extrabenefit.png';
+import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
+import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
+import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
+import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
+
+import deliverydriver from '../Assets/Images/Career/Departments/deliverydriver.png';
+import management from '../Assets/Images/Career/Departments/management.png';
+import service from '../Assets/Images/Career/Departments/service.png';
+import warehouse from '../Assets/Images/Career/Departments/warehouse.png';
 
 export const HomeSliderData = [
   {
@@ -387,7 +396,7 @@ export const CommercialTiretwo = [
     ],
   },
 ];
-export const HighPerformanceBrands = [
+export const HighPerformanceBrandsData = [
   {
     id: '1',
     heading: 'Cotinental',
@@ -427,5 +436,150 @@ export const HighPerformanceBrands = [
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'BKT',
+  },
+];
+
+export const Departmentsdata = [
+  {
+    id: 1,
+    img: deliverydriver,
+  },
+  {
+    id: 2,
+    img: management,
+  },
+  {
+    id: 3,
+    img: service,
+  },
+  {
+    id: 4,
+    img: warehouse,
+  },
+  {
+    id: 5,
+    img: deliverydriver,
+  },
+  {
+    id: 6,
+    img: management,
+  },
+];
+
+export const PerkBenifitsdata = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 3,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 4,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 5,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsdatatabone = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsdatatabtwo = [
+  {
+    id: 1,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsdatatabthree = [
+  {
+    id: 1,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsmobileonedata = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsmobiletwodata = [
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilethreedata = [
+  {
+    id: 3,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilefourdata = [
+  {
+    id: 4,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilefivedata = [
+  {
+    id: 5,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
   },
 ];

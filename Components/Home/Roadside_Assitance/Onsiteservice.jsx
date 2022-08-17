@@ -1,17 +1,16 @@
 import Image from 'next/image';
 import { ImPhone } from 'react-icons/im';
-import onsiteone from '../../Assets/Images/Onsite_Service/onsiteone.png';
-import onsitetwo from '../../Assets/Images/Onsite_Service/onsitetwo.png';
-import onsitethree from '../../Assets/Images/Onsite_Service/onsitethree.png';
-import onsitefour from '../../Assets/Images/Onsite_Service/onsitefour.png';
-import onsitefive from '../../Assets/Images/Onsite_Service/onsitefive.png';
-import onsitesix from '../../Assets/Images/Onsite_Service/onsitesix.png';
-import onsiteseven from '../../Assets/Images/Onsite_Service/onsiteseven.png';
-import onsiteeight from '../../Assets/Images/Onsite_Service/onsiteeight.png';
-import onsitenine from '../../Assets/Images/Onsite_Service/onsitenine.png';
-import onsiteten from '../../Assets/Images/Onsite_Service/onsiteten.png';
-import { Onsitecomponentdata } from '../../data/data';
-
+import onsiteone from '../../../Assets/Images/Onsite_Service/onsiteone.png';
+import onsitetwo from '../../../Assets/Images/Onsite_Service/onsitetwo.png';
+import onsitethree from '../../../Assets/Images/Onsite_Service/onsitethree.png';
+import onsitefour from '../../../Assets/Images/Onsite_Service/onsitefour.png';
+import onsitefive from '../../../Assets/Images/Onsite_Service/onsitefive.png';
+import onsitesix from '../../../Assets/Images/Onsite_Service/onsitesix.png';
+import onsiteseven from '../../../Assets/Images/Onsite_Service/onsiteseven.png';
+import onsiteeight from '../../../Assets/Images/Onsite_Service/onsiteeight.png';
+import onsitenine from '../../../Assets/Images/Onsite_Service/onsitenine.png';
+import onsiteten from '../../../Assets/Images/Onsite_Service/onsiteten.png';
+import { Onsitecomponentdata } from '../../../data/data';
 // const data = Onsitecomponentdata.grids[0];
 // console.log(data);
 

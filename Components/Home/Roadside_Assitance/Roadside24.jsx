@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { IoIosCheckmark } from 'react-icons/io';
 import { MdLocalPhone } from 'react-icons/md';
 import { BiMessageDetail } from 'react-icons/bi';
-import servicetruck from '../../Assets/Images/Roadside_Assistance/servicetruck.png';
+import servicetruck from '../../../Assets/Images/Roadside_Assistance/servicetruck.png';
 
 const Roadside = () => (
   <div id="roadmain">
