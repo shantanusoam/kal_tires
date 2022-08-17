@@ -15,11 +15,14 @@ import Apollo from '../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_lo
 import Bkt from '../Assets/Images/Whatweoffer/CommercialTires/BKT-Logo.png';
 import continental from '../Assets/Images/Whatweoffer/CommercialTires/continental-logo-black 2.png';
 import Commercgroup from '../Assets/Images/Whatweoffer/CommercialTires/commercgroup.png';
+import CommercalTiresTires from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTires_Tires.png';
+import CommercalTiresBg from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTiresBg.png';
+
 import Commercgrouptwo from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
 import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png';
 import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
 import commercegrouptab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png';
-import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
+import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwotab.png';
 
 export const HomeSliderData = [
   {
@@ -335,6 +338,8 @@ export const Onsitecomponentdata = [
 export const CommercialTireone = [
   {
     mainimage: Commercgroup,
+    BgImage: CommercalTiresBg,
+    TireImage: CommercalTiresTires,
     mainimagetab: commercegrouptab,
     Heading: 'Commercial Tires',
     titleone: 'Retread',
@@ -369,6 +374,8 @@ export const CommercialTireone = [
 export const CommercialTiretwo = [
   {
     mainimage: Commercgrouptwo,
+    BgImage: CommercalTiresBg,
+    TireImage: CommercalTiresTires,
     mainimagetab: commercegrouptwotab,
     Heading: 'Retread Tires',
     titleone: 'Retread',

@@ -152,3 +152,7 @@ body {
 
   overflow: hidden !important;
 }
+.RedIsh {
+  background-color: rgb(255, 0, 0);
+  background-blend-mode: multiply;
+}

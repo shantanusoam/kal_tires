@@ -1,27 +1,34 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 
+// eslint-disable-next-line import/named
 import { CommercialTireone, CommercialTiretwo } from '../../data/data';
 
 const CommercialTire = () => {
   const [alldata, setalldata] = useState(CommercialTireone[0]);
-  console.log(alldata);
+
   return (
     <div id="commercialtiremain">
       <div id="commertiremaininner">
         <div id="commercemain">
           <div id="commercemaininner">
             <div className="bg-black">
-              <div className="lg:grid lg:grid-cols-3 ">
-                <div className="lg:block hidden ">
-                  <div className="lg:relative self-start ">
-                    <Image
-                      className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md "
-                      src={alldata.mainimage}
-                      alt="tires"
-                    />
+              <div className="lg:grid lg:grid-cols-12 ">
+                <div className=" col-span-3  ">
+                  <div className="relative  bg-red-700 ">
+                    <div className="absolute bottom-0 left-0  ">
+                      <Image
+                        className=" lg:rounded-tl-md  mix-blend-multiply"
+                        src={alldata.BgImage}
+                        alt="tires"
+                      />
+                    </div>
+                    <div className="relative z-20 -mr-32 ">
+                      <Image src={alldata.TireImage} alt="tires" />
+                    </div>
                   </div>
                 </div>
+                <div />
                 <div className="lg:hidden block ">
                   <div className="lg:relative lg:mt-4 self-start">
                     <Image
@@ -31,7 +38,7 @@ const CommercialTire = () => {
                     />
                   </div>
                 </div>
-                <div className="lg:py-2 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left mt-16 ">
+                <div className="lg:py-2 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-6  text-center lg:text-left mt-16 ">
                   <h1 className="text-white font-poppins text-4xl font-bold">
                     {alldata.Heading}
                   </h1>
