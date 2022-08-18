@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { ImPhone } from 'react-icons/im';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 import onsiteone from '../../../Assets/Images/Onsite_Service/onsiteone.png';
 import onsitetwo from '../../../Assets/Images/Onsite_Service/onsitetwo.png';
 import onsitethree from '../../../Assets/Images/Onsite_Service/onsitethree.png';
@@ -53,7 +53,7 @@ const Onsiteservice = () => (
       </div>
 
       <Swiper
-        slidesPerView={1}
+        slidesPerView={3}
         spaceBetween={30}
         slidesPerGroup={1}
         loop
@@ -61,7 +61,7 @@ const Onsiteservice = () => (
         pagination={{
           clickable: true,
         }}
-        // navigation
+        navigation
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
