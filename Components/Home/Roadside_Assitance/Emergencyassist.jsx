@@ -1,8 +1,8 @@
 import React from 'react';
 import { ImPhone } from 'react-icons/im';
-import emerassistbackgr from '../../Assets/Images/Roadside_Assistance/emerassistbackgr.png';
+// import emerassistbackgr from '../../Assets/Images/Roadside_Assistance/emerassistbackgr.png';
 
-export const Emergencyassist = () => (
+const Emergencyassist = () => (
   <div id="maineassist">
     <div
       id="maineassistinner"
@@ -34,3 +34,4 @@ export const Emergencyassist = () => (
     </div>
   </div>
 );
+export default Emergencyassist;

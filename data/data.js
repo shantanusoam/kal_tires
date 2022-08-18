@@ -8,7 +8,6 @@ import onsiteseven from '../Assets/Images/Onsite_Service/onsiteseven.png';
 import onsiteeight from '../Assets/Images/Onsite_Service/onsiteeight.png';
 import onsitenine from '../Assets/Images/Onsite_Service/onsitenine.png';
 import onsiteten from '../Assets/Images/Onsite_Service/onsiteten.png';
-
 import GeneralTire from '../Assets/Images/Whatweoffer/CommercialTires/General_Tire-Logo.png';
 import ameristeel from '../Assets/Images/Whatweoffer/CommercialTires/ameristeel_logo.png';
 import Apollo from '../Assets/Images/Whatweoffer/CommercialTires/Apollo_Tyres_logo.png';
@@ -23,6 +22,16 @@ import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadl
 import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
 import commercegrouptab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptab.png';
 import commercegrouptwotab from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwotab.png';
+import extrabenefit from '../Assets/Images/Perkbenefits/extrabenefit.png';
+import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
+import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
+import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
+import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
+
+import deliverydriver from '../Assets/Images/Career/Departments/deliverydriver.png';
+import management from '../Assets/Images/Career/Departments/management.png';
+import service from '../Assets/Images/Career/Departments/service.png';
+import warehouse from '../Assets/Images/Career/Departments/warehouse.png';
 
 export const HomeSliderData = [
   {
@@ -270,68 +279,153 @@ export const Onsitecomponentdata = [
     heading: 'Do you Need Roadside Assistance Now?',
     desc: 'Many new women Hosts have started hosting on Airbnb during the pandemic, and women with only one listing have collectively earned over a half billion',
     BTN: '800-808-0025',
-    grids: [
-      {
-        id: 1,
-        img: onsiteone,
-        heading: 'On Site Service',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 2,
-        img: onsitetwo,
-        heading: 'Nationwide Presence',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 3,
-        img: onsitethree,
-        heading: 'Tire Replacement',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 4,
-        img: onsitefour,
-        heading: 'Light Mechanical Services',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 5,
-        img: onsitefive,
-        heading: 'Wheel Mounting',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 6,
-        img: onsitesix,
-        heading: 'Commercial Oil Change',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 7,
-        img: onsiteseven,
-        heading: 'Competitive Price',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 8,
-        img: onsiteeight,
-        heading: 'Freindly & Experience Technicians',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 9,
-        img: onsitenine,
-        heading: 'Tire Balancing',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 10,
-        img: onsiteten,
-        heading: 'Flat Tire Repair',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-    ],
+  },
+];
+
+export const OnsiteGriddata = [
+  {
+    id: 1,
+    img: onsiteone,
+    heading: 'On Site Service',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsitetwo,
+    heading: 'Nationwide Presence',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitethree,
+    heading: 'Tire Replacement',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 4,
+    img: onsitefour,
+    heading: 'Light Mechanical Services',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 5,
+    img: onsitefive,
+    heading: 'Wheel Mounting',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 6,
+    img: onsitesix,
+    heading: 'Commercial Oil Change',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 7,
+    img: onsiteseven,
+    heading: 'Competitive Price',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 8,
+    img: onsiteeight,
+    heading: 'Freindly & Experience Technicians',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 9,
+    img: onsitenine,
+    heading: 'Tire Balancing',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 10,
+    img: onsiteten,
+    heading: 'Flat Tire Repair',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabone = [
+  {
+    id: 1,
+    img: onsiteone,
+    heading: 'On Site Service',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsitetwo,
+    heading: 'Nationwide Presence',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitethree,
+    heading: 'Tire Replacement',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabtwo = [
+  {
+    id: 1,
+    img: onsitefour,
+    heading: 'Light Mechanical Services',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsitefive,
+    heading: 'Wheel Mounting',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitesix,
+    heading: 'Commercial Oil Change',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabthree = [
+  {
+    id: 1,
+    img: onsiteseven,
+    heading: 'Competitive Price',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsiteeight,
+    heading: 'Freindly & Experience Technicians',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitenine,
+    heading: 'Tire Balancing',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabfour = [
+  {
+    id: 1,
+    img: onsiteten,
+    heading: 'Flat Tire Repair',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsiteone,
+    heading: 'On Site Service',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitetwo,
+    heading: 'Nationwide Presence',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   },
 ];
 
@@ -434,123 +528,5 @@ export const HighPerformanceBrandsData = [
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'BKT',
-  },
-];
-export const MapData = [
-  {
-    id: 0,
-    name: 'Canada',
-    Sites: [
-      {
-        id: 0,
-        name: 'British Columbia',
-        Sites: [
-          {
-            id: 0,
-            name: 'Abbotsford',
-            address: '1225, Riverside Road, Abbotsford, BC, Canada',
-          },
-        ],
-      },
-      {
-        id: 1,
-        name: 'Alberta',
-        Sites: [
-          {
-            id: 0,
-            name: 'Calgary',
-            address: '9115 52St SE Calgary, Alberta, Canada',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 1,
-    name: 'USA',
-    Sites: [
-      {
-        id: 0,
-        name: 'California',
-        Sites: [
-          {
-            id: 0,
-            name: 'Fontana',
-            address: '10156 Live Oak Ave, Fontana, CA, 92335',
-          },
-          {
-            id: 1,
-            name: 'Bakersfield',
-            address: '3401 Sillect Ave, Bakersfield, CA 93308',
-          },
-          {
-            id: 2,
-            name: 'San Marcos',
-            address: '160 Industrial St, San Marcos, CA 92078',
-          },
-          {
-            id: 3,
-            name: 'Stockton',
-            address:
-              '7100 S Harland Rd, Lathrop, Stockton-CA 953307100 S Harland Rd, Lathrop, Stockton-CA 9533',
-          },
-        ],
-      },
-      {
-        id: 1,
-        name: 'Georgia',
-        Sites: [
-          {
-            id: 0,
-            name: 'Atlanta',
-            address: '3435 Jonesboro Rd Se Atlanta GA 30354',
-          },
-        ],
-      },
-      {
-        id: 2,
-        name: 'Indiana',
-        Sites: [
-          {
-            id: 0,
-            name: 'Indianapolis',
-            address: '2025 English Ave, Indianapolis, IN, 46201',
-          },
-        ],
-      },
-      {
-        id: 3,
-        name: 'New Jersey',
-        Sites: [
-          {
-            id: 0,
-            name: 'Hampton',
-            address: '    15 STATE ROUTE 173 Hampton NJ ',
-          },
-        ],
-      },
-      {
-        id: 4,
-        name: 'Arkansas',
-        Sites: [
-          {
-            id: 0,
-            name: 'Springdale',
-            address: '    1080 W Henri De Tonti Blvd, Springdale, AR, 72762 ',
-          },
-        ],
-      },
-      {
-        id: 4,
-        name: 'Texas',
-        Sites: [
-          {
-            id: 0,
-            name: 'Arlington',
-            address: '600 109th St, Arlington TX-7601',
-          },
-        ],
-      },
-    ],
   },
 ];
