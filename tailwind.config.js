@@ -28,6 +28,7 @@ module.exports = {
         'speciality-background': '#ffffff00',
         departmentheading: '#565967',
         perkbenefitsborder: '#BFBFBF',
+        ykvldesc: '#4A4A4D',
       },
       gridTemplateColumns: {
         onsiteTemplate: 'repeat(auto-fit, minmax(350px, 1fr))',
@@ -39,6 +40,7 @@ module.exports = {
         DepartmentsTemplate: 'repeat(3, minmax(0, 1fr))',
         servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
         servicesMobileTemplate: 'repeat(1,minmax(0,1fr))',
+        onsiteTemplatetab: 'repeat(3, minmax(250px, 1fr))',
       },
       // gridTemplateRows: {
       //   onsiterowTemplate: 'repeat(5,1fr)',

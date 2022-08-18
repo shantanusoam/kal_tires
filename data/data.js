@@ -279,68 +279,153 @@ export const Onsitecomponentdata = [
     heading: 'Do you Need Roadside Assistance Now?',
     desc: 'Many new women Hosts have started hosting on Airbnb during the pandemic, and women with only one listing have collectively earned over a half billion',
     BTN: '800-808-0025',
-    grids: [
-      {
-        id: 1,
-        img: onsiteone,
-        heading: 'On Site Service',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 2,
-        img: onsitetwo,
-        heading: 'Nationwide Presence',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 3,
-        img: onsitethree,
-        heading: 'Tire Replacement',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 4,
-        img: onsitefour,
-        heading: 'Light Mechanical Services',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 5,
-        img: onsitefive,
-        heading: 'Wheel Mounting',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 6,
-        img: onsitesix,
-        heading: 'Commercial Oil Change',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 7,
-        img: onsiteseven,
-        heading: 'Competitive Price',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 8,
-        img: onsiteeight,
-        heading: 'Freindly & Experience Technicians',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 9,
-        img: onsitenine,
-        heading: 'Tire Balancing',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-      {
-        id: 10,
-        img: onsiteten,
-        heading: 'Flat Tire Repair',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-      },
-    ],
+  },
+];
+
+export const OnsiteGriddata = [
+  {
+    id: 1,
+    img: onsiteone,
+    heading: 'On Site Service',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsitetwo,
+    heading: 'Nationwide Presence',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitethree,
+    heading: 'Tire Replacement',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 4,
+    img: onsitefour,
+    heading: 'Light Mechanical Services',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 5,
+    img: onsitefive,
+    heading: 'Wheel Mounting',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 6,
+    img: onsitesix,
+    heading: 'Commercial Oil Change',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 7,
+    img: onsiteseven,
+    heading: 'Competitive Price',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 8,
+    img: onsiteeight,
+    heading: 'Freindly & Experience Technicians',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 9,
+    img: onsitenine,
+    heading: 'Tire Balancing',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 10,
+    img: onsiteten,
+    heading: 'Flat Tire Repair',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabone = [
+  {
+    id: 1,
+    img: onsiteone,
+    heading: 'On Site Service',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsitetwo,
+    heading: 'Nationwide Presence',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitethree,
+    heading: 'Tire Replacement',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabtwo = [
+  {
+    id: 1,
+    img: onsitefour,
+    heading: 'Light Mechanical Services',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsitefive,
+    heading: 'Wheel Mounting',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitesix,
+    heading: 'Commercial Oil Change',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabthree = [
+  {
+    id: 1,
+    img: onsiteseven,
+    heading: 'Competitive Price',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsiteeight,
+    heading: 'Freindly & Experience Technicians',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitenine,
+    heading: 'Tire Balancing',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+];
+
+export const OnsiteGriddataTabfour = [
+  {
+    id: 1,
+    img: onsiteten,
+    heading: 'Flat Tire Repair',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 2,
+    img: onsiteone,
+    heading: 'On Site Service',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+  },
+  {
+    id: 3,
+    img: onsitetwo,
+    heading: 'Nationwide Presence',
+    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
   },
 ];
 
