@@ -436,3 +436,121 @@ export const HighPerformanceBrandsData = [
     src: 'BKT',
   },
 ];
+export const MapData = [
+  {
+    id: 0,
+    name: 'Canada',
+    Sites: [
+      {
+        id: 0,
+        name: 'British Columbia',
+        Sites: [
+          {
+            id: 0,
+            name: 'Abbotsford',
+            address: '1225, Riverside Road, Abbotsford, BC, Canada',
+          },
+        ],
+      },
+      {
+        id: 1,
+        name: 'Alberta',
+        Sites: [
+          {
+            id: 0,
+            name: 'Calgary',
+            address: '9115 52St SE Calgary, Alberta, Canada',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 1,
+    name: 'USA',
+    Sites: [
+      {
+        id: 0,
+        name: 'California',
+        Sites: [
+          {
+            id: 0,
+            name: 'Fontana',
+            address: '10156 Live Oak Ave, Fontana, CA, 92335',
+          },
+          {
+            id: 1,
+            name: 'Bakersfield',
+            address: '3401 Sillect Ave, Bakersfield, CA 93308',
+          },
+          {
+            id: 2,
+            name: 'San Marcos',
+            address: '160 Industrial St, San Marcos, CA 92078',
+          },
+          {
+            id: 3,
+            name: 'Stockton',
+            address:
+              '7100 S Harland Rd, Lathrop, Stockton-CA 953307100 S Harland Rd, Lathrop, Stockton-CA 9533',
+          },
+        ],
+      },
+      {
+        id: 1,
+        name: 'Georgia',
+        Sites: [
+          {
+            id: 0,
+            name: 'Atlanta',
+            address: '3435 Jonesboro Rd Se Atlanta GA 30354',
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: 'Indiana',
+        Sites: [
+          {
+            id: 0,
+            name: 'Indianapolis',
+            address: '2025 English Ave, Indianapolis, IN, 46201',
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: 'New Jersey',
+        Sites: [
+          {
+            id: 0,
+            name: 'Hampton',
+            address: '    15 STATE ROUTE 173 Hampton NJ ',
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: 'Arkansas',
+        Sites: [
+          {
+            id: 0,
+            name: 'Springdale',
+            address: '    1080 W Henri De Tonti Blvd, Springdale, AR, 72762 ',
+          },
+        ],
+      },
+      {
+        id: 4,
+        name: 'Texas',
+        Sites: [
+          {
+            id: 0,
+            name: 'Arlington',
+            address: '600 109th St, Arlington TX-7601',
+          },
+        ],
+      },
+    ],
+  },
+];
