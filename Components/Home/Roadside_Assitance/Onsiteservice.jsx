@@ -61,17 +61,21 @@ const Onsiteservice = () => (
         pagination={{
           clickable: true,
         }}
+        // navigation
+        modules={[Pagination, Navigation, Autoplay]}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false,
+        }}
         navigation
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
       >
-        <SwiperSlide>
-          <div id="maingridtab" className="lg:hidden">
-            <div
-              id="grid"
-              className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
-            >
-              {OnsiteGriddataTabone.map((index) => (
+        {OnsiteGriddata.map((index) => (
+          <SwiperSlide>
+            <div id="maingridtab" className="lg:hidden">
+              <div
+                id="grid"
+                className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
+              >
                 <div className="bg-bg-white-1 text-center" key={index.id}>
                   <div className="flex justify-center">
                     <div className="w-onsiteimage h-onsiteimage flex">
@@ -86,85 +90,10 @@ const Onsiteservice = () => (
                     {index.desc}
                   </p> */}
                 </div>
-              ))}
+              </div>
             </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div id="maingridtab" className="lg:hidden">
-            <div
-              id="grid"
-              className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
-            >
-              {OnsiteGriddataTabtwo.map((index) => (
-                <div className="bg-bg-white-1 text-center" key={index.id}>
-                  <div className="flex justify-center">
-                    <div className="w-onsiteimage h-onsiteimage flex">
-                      <Image src={index.img} alt="service" />
-                    </div>
-                  </div>
-
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                    {index.heading}
-                  </h1>
-                  {/* <p className="pt-6 lg:text-sm font-normal px-16">
-                    {index.desc}
-                  </p> */}
-                </div>
-              ))}
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div id="maingridtab" className="lg:hidden">
-            <div
-              id="grid"
-              className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
-            >
-              {OnsiteGriddataTabthree.map((index) => (
-                <div className="bg-bg-white-1 text-center" key={index.id}>
-                  <div className="flex justify-center">
-                    <div className="w-onsiteimage h-onsiteimage flex">
-                      <Image src={index.img} alt="service" />
-                    </div>
-                  </div>
-
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                    {index.heading}
-                  </h1>
-                  {/* <p className="pt-6 lg:text-sm font-normal px-16">
-                    {index.desc}
-                  </p> */}
-                </div>
-              ))}
-            </div>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div id="maingridtab" className="lg:hidden">
-            <div
-              id="grid"
-              className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplatetab pt-20 px-4"
-            >
-              {OnsiteGriddataTabfour.map((index) => (
-                <div className="bg-bg-white-1 text-center" key={index.id}>
-                  <div className="flex justify-center">
-                    <div className="w-onsiteimage h-onsiteimage flex">
-                      <Image src={index.img} alt="service" />
-                    </div>
-                  </div>
-
-                  <h1 className="lg:text-xl text-lg font-bold font-poppins ">
-                    {index.heading}
-                  </h1>
-                  {/* <p className="pt-6 lg:text-sm font-normal px-16">
-                    {index.desc}
-                  </p> */}
-                </div>
-              ))}
-            </div>
-          </div>
-        </SwiperSlide>
+          </SwiperSlide>
+        ))}
       </Swiper>
 
       {Onsitecomponentdata.map((onsite) => (
