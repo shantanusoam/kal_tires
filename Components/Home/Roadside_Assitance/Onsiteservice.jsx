@@ -61,7 +61,7 @@ const Onsiteservice = () => (
         pagination={{
           clickable: true,
         }}
-        navigation
+        // navigation
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >

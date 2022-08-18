@@ -41,6 +41,7 @@ module.exports = {
         servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
         servicesMobileTemplate: 'repeat(1,minmax(0,1fr))',
         onsiteTemplatetab: 'repeat(3, minmax(250px, 1fr))',
+        onsiteTemplatemobile: 'repeat(1, minmax(250px, 1fr))',
       },
       // gridTemplateRows: {
       //   onsiterowTemplate: 'repeat(5,1fr)',
