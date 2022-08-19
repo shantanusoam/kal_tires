@@ -36,6 +36,7 @@ module.exports = {
     'react/function-component-definition': [
       1,
       {
+        caseSensitive: false,
         namedComponents: 'arrow-function',
         unnamedComponents: 'arrow-function',
       },
