@@ -3,9 +3,6 @@ import { ImPhone } from 'react-icons/im';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation, Autoplay } from 'swiper';
 import { Onsitecomponentdata, OnsiteGriddata } from '../../../data/data';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
 
 const data = Onsitecomponentdata[0];
 console.log(data);
@@ -53,7 +50,7 @@ const Onsiteservice = () => (
         navigation
       >
         {OnsiteGriddata.map((index) => (
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <div id="maingridtab" className="lg:hidden md:block hidden">
               <div
                 id="grid"
@@ -96,7 +93,7 @@ const Onsiteservice = () => (
         navigation
       >
         {OnsiteGriddata.map((index) => (
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <div id="maingridmobile" className="md:hidden">
               <div
                 id="gridmobile"
@@ -132,7 +129,10 @@ const Onsiteservice = () => (
               {onsite.desc}
             </p>
             <div className="flex justify-center mt-8">
-              <button className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold">
+              <button
+                className="flex items-center bg-kaltire-red py-3 px-12 text-white lg:text-2xl lg:font-bold"
+                type="button"
+              >
                 <span>
                   <ImPhone className="text-2xl" />
                 </span>

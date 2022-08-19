@@ -3,11 +3,10 @@ import styled from 'styled-components';
 import Map from '../../Assets/Map/index';
 
 import { useHover } from '../../Hooks/Hover';
-import { MapData } from '../../data/data';
-import MapDropdown from './MapDropdown';
-import SubMenu from './SidebarMenu';
+
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
+// eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
   background: #15171c;
   width: 250px;

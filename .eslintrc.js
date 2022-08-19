@@ -3,7 +3,13 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'next/core-web-vitals',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -34,7 +40,7 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
-    'max-len': [2, 550],
+    'max-len': [2, 1250],
     'no-multiple-empty-lines': [
       'error',
       {

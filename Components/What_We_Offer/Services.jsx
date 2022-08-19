@@ -10,8 +10,11 @@ import five from '../../Assets/Images/Whatweoffer/services/five.png';
 import six from '../../Assets/Images/Whatweoffer/services/six.png';
 import seven from '../../Assets/Images/Whatweoffer/services/seven.png';
 import eight from '../../Assets/Images/Whatweoffer/services/eight.png';
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css';
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/pagination';
+// eslint-disable-next-line import/no-unresolved
 import 'swiper/css/navigation';
 
 export const Services = () => (

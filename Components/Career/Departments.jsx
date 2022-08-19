@@ -26,8 +26,8 @@ export const Departments = () => (
                 className="flex gap-4 xl:flex-nowrap flex-wrap xl:justify-center justify-evenly  flex-row"
               >
                 {Departmentsdata.map((index) => (
-                  <div id="departmentmaingrid">
-                    <div id="grid" key={index.id}>
+                  <div id="departmentmaingrid" key={index.id}>
+                    <div id="grid">
                       <div className=" text-center ">
                         <div className="flex">
                           <div>
@@ -59,9 +59,9 @@ export const Departments = () => (
             className="mySwiper"
           >
             {Departmentsdata.map((index) => (
-              <SwiperSlide>
+              <SwiperSlide key={index.id}>
                 {' '}
-                <div key={index.id}>
+                <div>
                   <div id="onsitemain">
                     <div id="onsitemaininner" className="bg-white">
                       <div id="maingrid">

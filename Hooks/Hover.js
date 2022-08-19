@@ -22,6 +22,7 @@ export const useHover = () => {
         nodeRef.current.addEventListener('mouseout', handleMouseOut);
       }
     },
+    // eslint-disable-next-line comma-dangle
     [handleMouseOver, handleMouseOut]
   );
 
