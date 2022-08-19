@@ -16,7 +16,6 @@ import continental from '../Assets/Images/Whatweoffer/CommercialTires/continenta
 import Commercgroup from '../Assets/Images/Whatweoffer/CommercialTires/commercgroup.png';
 import CommercalTiresTires from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTires_Tires.png';
 import CommercalTiresBg from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTiresBg.png';
-
 import Commercgrouptwo from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
 import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png';
 import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
@@ -27,11 +26,15 @@ import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
 import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
 import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
 import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
-
 import deliverydriver from '../Assets/Images/Career/Departments/deliverydriver.png';
 import management from '../Assets/Images/Career/Departments/management.png';
 import service from '../Assets/Images/Career/Departments/service.png';
 import warehouse from '../Assets/Images/Career/Departments/warehouse.png';
+import one from '../Assets/Images/Whatweoffer/Industrialtires/one.png';
+import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
+import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
+import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
+import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
 
 export const HomeSliderData = [
   {
@@ -345,90 +348,6 @@ export const OnsiteGriddata = [
   },
 ];
 
-export const OnsiteGriddataTabone = [
-  {
-    id: 1,
-    img: onsiteone,
-    heading: 'On Site Service',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsitetwo,
-    heading: 'Nationwide Presence',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitethree,
-    heading: 'Tire Replacement',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
-export const OnsiteGriddataTabtwo = [
-  {
-    id: 1,
-    img: onsitefour,
-    heading: 'Light Mechanical Services',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsitefive,
-    heading: 'Wheel Mounting',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitesix,
-    heading: 'Commercial Oil Change',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
-export const OnsiteGriddataTabthree = [
-  {
-    id: 1,
-    img: onsiteseven,
-    heading: 'Competitive Price',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsiteeight,
-    heading: 'Freindly & Experience Technicians',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitenine,
-    heading: 'Tire Balancing',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
-export const OnsiteGriddataTabfour = [
-  {
-    id: 1,
-    img: onsiteten,
-    heading: 'Flat Tire Repair',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsiteone,
-    heading: 'On Site Service',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitetwo,
-    heading: 'Nationwide Presence',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
 export const CommercialTireone = [
   {
     mainimage: Commercgroup,
@@ -528,5 +447,178 @@ export const HighPerformanceBrandsData = [
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'BKT',
+  },
+];
+
+export const Departmentsdata = [
+  {
+    id: 1,
+    img: deliverydriver,
+  },
+  {
+    id: 2,
+    img: management,
+  },
+  {
+    id: 3,
+    img: service,
+  },
+  {
+    id: 4,
+    img: warehouse,
+  },
+  {
+    id: 5,
+    img: deliverydriver,
+  },
+  {
+    id: 6,
+    img: management,
+  },
+];
+
+export const PerkBenifitsdata = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 3,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 4,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 5,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsdatatabone = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsdatatabtwo = [
+  {
+    id: 1,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsdatatabthree = [
+  {
+    id: 1,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsmobileonedata = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsmobiletwodata = [
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilethreedata = [
+  {
+    id: 3,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilefourdata = [
+  {
+    id: 4,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilefivedata = [
+  {
+    id: 5,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const IndustrialTiresdata = [
+  {
+    id: '1',
+    img: one,
+    heading: 'Industrial Tires',
+  },
+  {
+    id: '2',
+    img: two,
+    heading: 'Earthmover Tips',
+  },
+  {
+    id: '3',
+    img: three,
+    heading: 'Agricultural Tires',
+  },
+  {
+    id: '4',
+    img: four,
+    heading: 'Passenger Tires',
+  },
+  {
+    id: '5',
+    img: five,
+    heading: 'Light Truck Tires',
   },
 ];

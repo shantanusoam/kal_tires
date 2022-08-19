@@ -13,7 +13,6 @@ import {
   PerkBenifitsmobilefourdata,
   PerkBenifitsmobilefivedata,
 } from '../../data/data';
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -158,7 +157,7 @@ export const PerkBenifits = () => (
               loop
               loopFillGroupWithBlank
               pagination={{
-                clickable: true,
+                clickable: false,
               }}
               navigation
               modules={[Pagination, Navigation]}
