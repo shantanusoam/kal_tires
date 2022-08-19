@@ -14,7 +14,7 @@ import { IndustrialTiresdata } from '../../data/data';
 
 export const IndustTires = () => (
   <>
-    {/* <div id="industslidermainmobile" className="block">
+    <div id="industslidermainmobile" className="block">
       <div id="industsliderinnermainmobile">
         <Swiper
           slidesPerView={1}
@@ -211,7 +211,7 @@ export const IndustTires = () => (
           </SwiperSlide>
         </Swiper>
       </div>
-    </div> */}
+    </div>
 
     <div id="industslidermaintab" className="block">
       <div id="industsliderinnermain">
@@ -275,7 +275,7 @@ export const IndustTires = () => (
       </div>
     </div>
 
-    {/* <div id="industmain" className="lg:block hidden">
+    <div id="industmain" className="lg:block hidden">
       <div
         id="industmaininner"
         className="py-24"
@@ -313,6 +313,6 @@ export const IndustTires = () => (
           </div>
         </div>
       </div>
-    </div> */}
+    </div>
   </>
 );
