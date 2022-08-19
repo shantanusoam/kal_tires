@@ -22,7 +22,7 @@ export const IndustTires = () => (
           loop
           loopFillGroupWithBlank
           pagination={{
-            clickable: true,
+            clickable: false,
           }}
           navigation
           modules={[Pagination, Navigation]}

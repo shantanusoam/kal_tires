@@ -345,90 +345,6 @@ export const OnsiteGriddata = [
   },
 ];
 
-export const OnsiteGriddataTabone = [
-  {
-    id: 1,
-    img: onsiteone,
-    heading: 'On Site Service',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsitetwo,
-    heading: 'Nationwide Presence',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitethree,
-    heading: 'Tire Replacement',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
-export const OnsiteGriddataTabtwo = [
-  {
-    id: 1,
-    img: onsitefour,
-    heading: 'Light Mechanical Services',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsitefive,
-    heading: 'Wheel Mounting',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitesix,
-    heading: 'Commercial Oil Change',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
-export const OnsiteGriddataTabthree = [
-  {
-    id: 1,
-    img: onsiteseven,
-    heading: 'Competitive Price',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsiteeight,
-    heading: 'Freindly & Experience Technicians',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitenine,
-    heading: 'Tire Balancing',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
-export const OnsiteGriddataTabfour = [
-  {
-    id: 1,
-    img: onsiteten,
-    heading: 'Flat Tire Repair',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 2,
-    img: onsiteone,
-    heading: 'On Site Service',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-  {
-    id: 3,
-    img: onsitetwo,
-    heading: 'Nationwide Presence',
-    desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
-  },
-];
-
 export const CommercialTireone = [
   {
     mainimage: Commercgroup,
@@ -528,5 +444,150 @@ export const HighPerformanceBrandsData = [
     bgImage:
       'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/High_performace_brands_logo/HP_Bg/truck4.png',
     src: 'BKT',
+  },
+];
+
+export const Departmentsdata = [
+  {
+    id: 1,
+    img: deliverydriver,
+  },
+  {
+    id: 2,
+    img: management,
+  },
+  {
+    id: 3,
+    img: service,
+  },
+  {
+    id: 4,
+    img: warehouse,
+  },
+  {
+    id: 5,
+    img: deliverydriver,
+  },
+  {
+    id: 6,
+    img: management,
+  },
+];
+
+export const PerkBenifitsdata = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 3,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 4,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 5,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsdatatabone = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsdatatabtwo = [
+  {
+    id: 1,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsdatatabthree = [
+  {
+    id: 1,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+  {
+    id: 2,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsmobileonedata = [
+  {
+    id: 1,
+    img: extrabenefit,
+    Heading: 'New Parent Leave',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const PerkBenifitsmobiletwodata = [
+  {
+    id: 2,
+    img: growthopp,
+    Heading: 'Health Insurance',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilethreedata = [
+  {
+    id: 3,
+    img: Healthinsurance,
+    Heading: 'Extra Benefits',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilefourdata = [
+  {
+    id: 4,
+    img: paidtimeoff,
+    Heading: 'Paid Time Off',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+export const PerkBenifitsmobilefivedata = [
+  {
+    id: 5,
+    img: parentallove,
+    Heading: 'Career Growth Opportunities',
+    desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
   },
 ];
