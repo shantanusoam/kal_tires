@@ -1,3 +1,5 @@
+/* eslint-disable operator-linebreak */
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -245,7 +247,7 @@ export const IndustTires = () => (
               >
                 <div id="maintab" className="flex justify-center items-center">
                   {IndustrialTiresdata.map((index) => (
-                    <SwiperSlide>
+                    <SwiperSlide key={index}>
                       <div
                         className="flex justify-center items-center"
                         key={index.id}

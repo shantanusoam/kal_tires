@@ -1,3 +1,5 @@
+/* eslint-disable indent */
+/* eslint-disable react/jsx-indent */
 import React from 'react';
 
 const MapDropdown = ({ data }) => (
@@ -6,7 +8,10 @@ const MapDropdown = ({ data }) => (
     <div id="mainnewnavcontainer">
       <div id="innermainnavcontainer">
         <div className="group inline-block w-full">
-          <button className="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-md flex items-center w-full h-12">
+          <button
+            type="button"
+            className="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-md flex items-center w-full h-12"
+          >
             <span className="pr-1 font-semibold flex-1">{data.name}</span>
             <span>
               <svg
@@ -30,13 +35,19 @@ const MapDropdown = ({ data }) => (
             ))}
           </ul> */}
             {data.Sites
-              ? data.Sites.map((data, index) => (
-                  <li className="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                    {data.Sites != null ? (
+              ? data.Sites.map((subdata, index) => (
+                  <li
+                    key={index}
+                    className="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center"
+                  >
+                    {subdata.Sites != null ? (
                       <>
-                        <button className="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                        <button
+                          type="button"
+                          className="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12"
+                        >
                           <span className="pr-1 font-semibold flex-1">
-                            {data.name}
+                            {subdata.name}
                           </span>
                           <span className="mr-auto">
                             <svg
@@ -55,20 +66,16 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                         >
-                          {data.Sites.map((data, index) => (
+                          {/* {subdata.Sites.map((Ssubdata, index) => (
                             <li className="px-3 py-1 ">
                               <NavItemnew key={data.id}>
                                 <NavLinksnew>{data.name}</NavLinksnew>
                               </NavItemnew>
                             </li>
-                          ))}
+                          ))} */}
                         </ul>
                       </>
-                    ) : (
-                      <NavItemnew key={data.id}>
-                        <NavLinksnew>{data.name}</NavLinksnew>
-                      </NavItemnew>
-                    )}
+                    ) : null}
                   </li>
                 ))
               : null}

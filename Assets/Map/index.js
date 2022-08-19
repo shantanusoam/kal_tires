@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
 import { React } from 'react';
 // import { isMobile, browserName } from 'react-device-detect';
 import { useHover } from '../../Hooks/Hover';
@@ -10,7 +12,7 @@ const Map = ({
   Arlington,
   Hampton,
   Atlanta,
-  Indianapolis,
+
   Springdale,
   abbotsford,
   Lathrop,
@@ -38,7 +40,7 @@ const Map = ({
     { y: '810', x: '105', name: 'Fontana' },
 
     { y: '910', x: '105', name: 'Fontana' },
-  ].map((value) => {});
+  ].map((value) => null);
 
   const [Fontana2, isFontana2] = useHover();
   const [Bakersfield2, isBakersfield2] = useHover();
@@ -751,7 +753,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
 
         { y: '910', x: '105' },
       ].map((value, i) => (
-        <g id="Atlanta">
+        <g id="Atlanta" key={i}>
           <g id="Text-BC">
             <rect
               width="320.39"

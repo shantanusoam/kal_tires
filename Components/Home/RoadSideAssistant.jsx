@@ -1,9 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { MdLocalPhone } from 'react-icons/md';
-import { BiMessageDetail } from 'react-icons/bi';
+
 import RoadSideAss from '../../Assets/Images/Home/RoadsideAssistant_Home.png';
-import TireIcon from '../../Assets/Images/Home/Tire_Icon.png';
 
 const RoadSideAssistant = () => (
   <div>
@@ -11,9 +10,7 @@ const RoadSideAssistant = () => (
       style={{
         backgroundImage:
           // eslint-disable-next-line operator-linebreak
-          'url(' +
-          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png' +
-          ')',
+          'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Home/AboutUs_background.png)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}

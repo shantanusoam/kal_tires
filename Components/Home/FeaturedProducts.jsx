@@ -164,7 +164,10 @@ const FeaturedProducts = () => {
           >
             {isDesktop ? (
               Feaaturedata.map((data) => (
-                <div className=" bg-white px-6 py-8 flex flex-col justify-center items-center">
+                <div
+                  className=" bg-white px-6 py-8 flex flex-col justify-center items-center"
+                  key={data}
+                >
                   <img src={data.imageurl} alt="data" className="h-72" />
                   <div>
                     <h3 className="font-bold text-lg">{data.heading}</h3>

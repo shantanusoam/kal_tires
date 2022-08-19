@@ -10,9 +10,7 @@ const Emergencyassist = () => (
       style={{
         backgroundImage:
           // eslint-disable-next-line operator-linebreak
-          'url(' +
-          'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Roadside_Assistance/emerassistbackgr.png' +
-          ')',
+          'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Roadside_Assistance/emerassistbackgr.png)',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
       }}
@@ -23,7 +21,10 @@ const Emergencyassist = () => (
           <br /> EMERGENCY ASSISTANCE
         </h1>
         <div className="flex justify-center mt-8 pb-6 md:pt-0 pt-4">
-          <button className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-2xl lg:font-bold">
+          <button
+            className="flex items-center bg-kaltire-red py-3 lg:px-12 md:px-16 px-12 text-white lg:text-2xl lg:font-bold"
+            type="button"
+          >
             <span>
               <ImPhone className="text-2xl" />
             </span>{' '}

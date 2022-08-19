@@ -27,9 +27,7 @@ export const Services = () => (
           style={{
             backgroundImage:
               // eslint-disable-next-line operator-linebreak
-              'url(' +
-              'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-              ')',
+              'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
           }}
@@ -150,9 +148,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -201,9 +197,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -252,9 +246,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -303,9 +295,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -372,9 +362,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -423,9 +411,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -474,9 +460,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -525,9 +509,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -576,9 +558,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -627,9 +607,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -678,9 +656,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
@@ -729,9 +705,7 @@ export const Services = () => (
                 style={{
                   backgroundImage:
                     // eslint-disable-next-line operator-linebreak
-                    'url(' +
-                    'https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png' +
-                    ')',
+                    'url(https://raw.githubusercontent.com/shantanusoam/kal_tires/kaltireBranch/Assets/Images/Whatweoffer/services/services%20background.png)',
                   backgroundRepeat: 'no-repeat',
                   backgroundSize: 'cover',
                 }}
