@@ -22,24 +22,23 @@ const Map = ({
   // const [toranto2, istoranto2] = useHover();
   // const [surey2, issurey2] = useHover();
   // const [edmenton2, isedmenton2] = useHover();
-  {
-    [
-      { y: '110', x: '105', name: 'Fontana' },
-      { y: '310', x: '105', name: 'Fontana' },
 
-      { y: '410', x: '105', name: 'Fontana' },
+  [
+    { y: '110', x: '105', name: 'Fontana' },
+    { y: '310', x: '105', name: 'Fontana' },
 
-      { y: '510', x: '105', name: 'Fontana' },
+    { y: '410', x: '105', name: 'Fontana' },
 
-      { y: '610', x: '105', name: 'Fontana' },
+    { y: '510', x: '105', name: 'Fontana' },
 
-      { y: '710', x: '505', name: 'Fontana' },
+    { y: '610', x: '105', name: 'Fontana' },
 
-      { y: '810', x: '105', name: 'Fontana' },
+    { y: '710', x: '505', name: 'Fontana' },
 
-      { y: '910', x: '105', name: 'Fontana' },
-    ].map((value, i) => {});
-  }
+    { y: '810', x: '105', name: 'Fontana' },
+
+    { y: '910', x: '105', name: 'Fontana' },
+  ].map((value) => {});
 
   const [Fontana2, isFontana2] = useHover();
   const [Bakersfield2, isBakersfield2] = useHover();
