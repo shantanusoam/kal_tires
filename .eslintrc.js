@@ -34,7 +34,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'react/function-component-definition': [
-      2,
+      1,
       {
         namedComponents: 'arrow-function',
         unnamedComponents: 'arrow-function',
