@@ -16,7 +16,6 @@ import continental from '../Assets/Images/Whatweoffer/CommercialTires/continenta
 import Commercgroup from '../Assets/Images/Whatweoffer/CommercialTires/commercgroup.png';
 import CommercalTiresTires from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTires_Tires.png';
 import CommercalTiresBg from '../Assets/Images/Whatweoffer/CommercialTires/CommercalTiresBg.png';
-
 import Commercgrouptwo from '../Assets/Images/Whatweoffer/CommercialTires/commercgrouptwo.png';
 import contitread from '../Assets/Images/Whatweoffer/CommercialTires/contitreadlogo.png';
 import contilifecycle from '../Assets/Images/Whatweoffer/CommercialTires/contilifecyclelogo.png';
@@ -27,11 +26,15 @@ import growthopp from '../Assets/Images/Perkbenefits/growthopp.png';
 import Healthinsurance from '../Assets/Images/Perkbenefits/Healthinsurance.png';
 import paidtimeoff from '../Assets/Images/Perkbenefits/paidtimeoff.png';
 import parentallove from '../Assets/Images/Perkbenefits/parentallove.png';
-
 import deliverydriver from '../Assets/Images/Career/Departments/deliverydriver.png';
 import management from '../Assets/Images/Career/Departments/management.png';
 import service from '../Assets/Images/Career/Departments/service.png';
 import warehouse from '../Assets/Images/Career/Departments/warehouse.png';
+import one from '../Assets/Images/Whatweoffer/Industrialtires/one.png';
+import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
+import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
+import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
+import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
 
 export const HomeSliderData = [
   {
@@ -589,5 +592,33 @@ export const PerkBenifitsmobilefivedata = [
     img: parentallove,
     Heading: 'Career Growth Opportunities',
     desc: 'Through True Rich Attended does no end it his mother since real had half every him end it his mother',
+  },
+];
+
+export const IndustrialTiresdata = [
+  {
+    id: '1',
+    img: one,
+    heading: 'Industrial Tires',
+  },
+  {
+    id: '2',
+    img: two,
+    heading: 'Earthmover Tips',
+  },
+  {
+    id: '3',
+    img: three,
+    heading: 'Agricultural Tires',
+  },
+  {
+    id: '4',
+    img: four,
+    heading: 'Passenger Tires',
+  },
+  {
+    id: '5',
+    img: five,
+    heading: 'Light Truck Tires',
   },
 ];
