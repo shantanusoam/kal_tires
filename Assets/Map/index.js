@@ -26,20 +26,20 @@ const Map = ({
   // const [edmenton2, isedmenton2] = useHover();
 
   [
-    { y: '110', x: '105', name: 'Fontana' },
-    { y: '310', x: '105', name: 'Fontana' },
+    { y: '110', x: '105', name: 'Fontana2' },
+    { y: '310', x: '105', name: 'Bakersfield2' },
 
-    { y: '410', x: '105', name: 'Fontana' },
+    { y: '410', x: '105', name: 'SanMarcos2' },
 
-    { y: '510', x: '105', name: 'Fontana' },
+    { y: '510', x: '105', name: 'Calgary2' },
 
-    { y: '610', x: '105', name: 'Fontana' },
+    { y: '610', x: '105', name: 'Lathrope2' },
 
-    { y: '710', x: '505', name: 'Fontana' },
+    { y: '710', x: '505', name: 'Calexico2' },
 
-    { y: '810', x: '105', name: 'Fontana' },
+    { y: '810', x: '105', name: 'Arlington2' },
 
-    { y: '910', x: '105', name: 'Fontana' },
+    { y: '910', x: '105', name: 'Hampton2' },
   ].map((value) => null);
 
   const [Fontana2, isFontana2] = useHover();
@@ -738,36 +738,72 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg>
       {[
-        { y: '110', x: '105' },
-        { y: '310', x: '105' },
+        { y: '110', x: '105', name: Fontana2 },
+        { y: '310', x: '105', name: Bakersfield2 },
 
-        { y: '410', x: '105' },
+        { y: '410', x: '105', name: SanMarcos2 },
 
-        { y: '510', x: '105' },
+        { y: '510', x: '105', name: Calgary2 },
 
-        { y: '610', x: '105' },
+        { y: '610', x: '105', name: Lathrope2 },
 
-        { y: '710', x: '505' },
+        { y: '710', x: '505', name: Calexico2 },
 
-        { y: '810', x: '105' },
+        { y: '810', x: '105', name: Arlington2 },
 
-        { y: '910', x: '105' },
+        { y: '910', x: '105', name: Hampton2 },
       ].map((value, i) => (
-        <g id="Atlanta" key={i}>
-          <g id="Text-BC">
-            <rect
-              width="320.39"
-              height="28.82"
-              x={value.x}
-              y={value.y}
-              className="cls-3"
-              rx="3.44"
-            />
-            <text x={value.x} y={Number(value.y) + 20} fill="black">
-              11090 Almond Ave, Fontana, CA 92337, USA
-            </text>
-          </g>
-        </g>
+        <foreignObject
+          id="Atlanta"
+          x={value.x}
+          y={value.y}
+          width="160"
+          height="100"
+          key={i}
+        >
+          <div
+            className="cls-3"
+            id="Text-BC"
+            xmlns="http://www.w3.org/1999/xhtml"
+          >
+            <p className="red">11090 Almond Ave, Fontana, CA 92337, USA</p>
+            <p className="green">This is green color</p>
+          </div>
+        </foreignObject>
+      ))}
+      {[
+        { y: '110', x: '105', name: Fontana2 },
+        { y: '310', x: '105', name: Bakersfield2 },
+
+        { y: '410', x: '105', name: SanMarcos2 },
+
+        { y: '510', x: '105', name: Calgary2 },
+
+        { y: '610', x: '105', name: Lathrope2 },
+
+        { y: '710', x: '505', name: Calexico2 },
+
+        { y: '810', x: '105', name: Arlington2 },
+
+        { y: '910', x: '105', name: Hampton2 },
+      ].map((value, i) => (
+        <foreignObject
+          id="Atlanta"
+          x={value.x}
+          y={value.y}
+          width="90"
+          height="70"
+          ref={value.name}
+          key={i}
+        >
+          <div
+            className="cls-3"
+            id="Text-BC"
+            xmlns="http://www.w3.org/1999/xhtml"
+          >
+            <p className="green">This is green color</p>
+          </div>
+        </foreignObject>
       ))}
       {/* <svg
         className="marker AlmondAve UC"
