@@ -38,6 +38,7 @@ module.exports = {
         onsiteTemplate2: 'repeat(auto-fit, minmax(300px, 1fr))',
         servicesTemplate: 'repeat(4, minmax(0, 1fr))',
         DepartmentsTemplate: 'repeat(3, minmax(0, 1fr))',
+        // servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
         servicesTabTemplate: 'repeat(2,minmax(0,1fr))',
         servicesMobileTemplate: 'repeat(1,minmax(0,1fr))',
         onsiteTemplatetab: 'repeat(3, minmax(250px, 1fr))',

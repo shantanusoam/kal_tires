@@ -23,7 +23,11 @@ export const Speciality = () => {
           <div className="lg:grid lg:grid-cols-3 items-center">
             <div className="lg:hidden block">
               <h2 className="text-3xl tracking-tight pb-4 text-black font-poppins font-semibold lg:block text-center">
-                <span className="block">Speciality</span>
+                <span className="block">
+                  <span className="border-b-2 border-red-600 px-4">
+                    Speciality
+                  </span>
+                </span>
               </h2>
             </div>
             <div className="lg:hidden block">
@@ -42,7 +46,7 @@ export const Speciality = () => {
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">Speciality</span>
               </h2>
-              <p className="text-black mt-5">
+              <p className="text-black mt-5 lg:px-0 px-8">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatibus architecto facere corporis vitae, voluptatem optio
                 molestiae neque omnis doloribus inventore nulla aliquid. Ipsum
@@ -63,45 +67,11 @@ export const Speciality = () => {
                 esse reiciendis vitae ipsa hic. Dolor excepturi et veniam!
                 Quaerat omnis optio reiciendis asperiores soluta dolorem?
               </p>
-              {/* <div className="inline-block py-3">
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-              <p className="pt-2">
-                <div className="flex items-center ">
-                  <span>
-                    <IoIosCheckmark className="h-12 w-12 text-kaltire-red" />
-                  </span>
-                  <span>Lorem ipsum dolor sit.</span>
-                </div>
-              </p>
-            </div> */}
-              {/* The Phone and Email icons start  */}
+
               <div className="block pt-4 " id="PhoneEmailRoad" />
               <div
                 id="InnerphoneEmailRoad"
-                className="md:flex hidden mt-8 justify-center lg:justify-start"
+                className="md:flex hidden mt-8 justify-center lg:justify-start "
               >
                 <div className="flex lg:justify-center lg:pb-0 pb-4 ">
                   <div
