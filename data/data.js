@@ -632,6 +632,7 @@ export const IndustrialTiresdata = [
   },
 ];
 
+
 export const Servicesdata = [
   {
     id: 1,
@@ -672,5 +673,393 @@ export const Servicesdata = [
     id: 8,
     img: eights,
     heading: 'Scheduled Maintainance program',
+    
+export const NavbarData = [
+  {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
+    id: 1,
+    navItem: 'Business Verticals',
+    link: '/BusinessVerticals',
+    navItems: [
+      {
+        url: {
+          url: 'https://kalfreight.com/',
+          link: 'a',
+        },
+        id: 1,
+        navItem: 'KAL Freight',
+      },
+      {
+        url: {
+          url: 'https://kaltrailers.com/',
+          link: 'a',
+        },
+
+        id: 2,
+        navItem: 'KAL Trailers & Leasing',
+      },
+      {
+        url: {
+          url: 'https://kaltires.com/',
+          link: 'a',
+        },
+        id: 3,
+        navItem: 'KVL Tires',
+      },
+      {
+        url: {
+          url: 'https://kalpartz.com/',
+          link: 'a',
+        },
+        id: 4,
+        navItem: 'KAL Partz',
+      },
+      {
+        url: {
+          url: 'https://kalway.com/',
+          link: 'a',
+        },
+        id: 5,
+        navItem: 'KALWAY',
+      },
+    ],
+  },
+  {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
+    id: 2,
+    navItem: 'About Us',
+    link: '/BusinessVerticals',
+    navItems: [
+      {
+        url: {
+          url: 'AboutUs-Scroll',
+          link: 's',
+        },
+        id: 1,
+        navItem: 'Company Overview',
+      },
+      {
+        url: {
+          url: 'https://kalfreight.com/who-we-are/csr',
+          link: 'a',
+        },
+        id: 2,
+        navItem: 'CSR',
+      },
+    ],
+  },
+  {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
+    id: 3,
+    navItem: 'Newsroom',
+    link: '/BusinessVerticals',
+    navItems: [
+      {
+        url: {
+          url: 'NewsRoom',
+          link: 's',
+        },
+        id: 1,
+        navItem: 'Events',
+      },
+      {
+        url: {
+          url: 'NewsRoom',
+          link: 's',
+        },
+        id: 2,
+        navItem: 'Blog',
+      },
+    ],
+  },
+  {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
+    id: 4,
+    navItem: 'Services',
+    link: '/BusinessVerticals',
+    navItems: [
+      {
+        url: {
+          url: 'https://kalfreight.com/what-we-do/dry-van',
+          link: 'a',
+        },
+        id: 1,
+        navItem: 'Logistics',
+
+        navItems: [
+          {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/FTL-services',
+              link: 'a',
+            },
+            id: 1,
+            navItem: 'FTL Services',
+          },
+          {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/dedicated-loads',
+              link: 'a',
+            },
+            id: 2,
+            navItem: 'Dedicated Loads',
+          },
+          {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/dry-van',
+              link: 'a',
+            },
+            id: 3,
+            navItem: 'Dry Vans',
+          },
+          {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/trailer-interchange',
+              link: 'a',
+            },
+            id: 4,
+            navItem: 'Trailer Interchange',
+          },
+        ],
+      },
+      {
+        url: {
+          url: 'https://kalpartz.com/products/',
+          link: 'a',
+        },
+        id: 2,
+        navItem: 'Partz',
+        navItems: [
+          {
+            url: {
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
+            },
+            id: 1,
+            navItem: 'O.E & O.E.M Parts',
+          },
+          {
+            url: {
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
+            },
+            id: 2,
+            navItem: 'Custom Parts & Accessories',
+          },
+          {
+            url: {
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
+            },
+            id: 3,
+            navItem: 'Aftermarket Parts',
+          },
+        ],
+      },
+      {
+        url: {
+          url: 'http://kaltires.com/#Advantages',
+          link: 'a',
+        },
+        id: 3,
+        navItem: 'Tires',
+        navItems: [
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 1,
+            navItem: '24x7 Roadside Assistance',
+          },
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 2,
+            navItem: 'Tire Mounting & Balancing',
+          },
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 3,
+            navItem: 'Wheel Alignment',
+          },
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 4,
+            navItem: 'Heavy Duty Front-end Work',
+          },
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 5,
+            navItem: 'Scheduled Maintenance',
+          },
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 6,
+            navItem: 'On Site Service',
+          },
+          {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
+            id: 7,
+            navItem: 'Pick up and Delivery Service',
+          },
+        ],
+      },
+
+      {
+        url: {
+          url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
+          link: 'a',
+        },
+        id: 4,
+        navItem: 'Trailers & Leasing',
+        navItems: [
+          {
+            url: {
+              url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
+              link: 'a',
+            },
+            id: 1,
+            navItem: 'Used Trucks Sale & Purchase',
+          },
+          {
+            url: {
+              url: 'https://kaltrailers.com/product-category/trailers/new-trailers/',
+              link: 'a',
+            },
+            id: 2,
+            navItem: 'New Trailers Sale & Purchase',
+          },
+        ],
+      },
+      {
+        url: {
+          url: 'https://kaltrailers.com/credit-application/',
+          link: 'a',
+        },
+        id: 5,
+        navItem: 'Credit Application',
+      },
+      {
+        url: {
+          url: 'https://kalway.com/services/#Products',
+          link: 'a',
+        },
+        id: 6,
+        navItem: 'Brokerage',
+        navItems: [
+          {
+            url: {
+              url: 'https://kalway.com/services/#Products',
+              link: 'a',
+            },
+            id: 1,
+            navItem: '3PL Service ',
+          },
+          {
+            url: {
+              url: 'https://kalway.com/Carriers',
+              link: 'a',
+            },
+            id: 2,
+            navItem: 'Load Management',
+          },
+          {
+            url: {
+              url: 'https://kalway.com/services/#Products',
+              link: 'a',
+            },
+            id: 3,
+            navItem: 'Full Truck Service',
+          },
+        ],
+      },
+
+      {
+        url: {
+          url: 'https://kalfreight.com/drivers',
+          link: 'a',
+        },
+        id: 7,
+        navItem: 'Driver Assistance',
+      },
+
+      {
+        url: {
+          url: 'ContactSection',
+          link: 's',
+        },
+        id: 8,
+        navItem: 'Customer Support',
+      },
+    ],
+  },
+  {
+    url: {
+      url: 'ContactSection',
+      link: 's',
+    },
+    id: 3,
+    navItem: 'Careers',
+
+    // link: "/BusinessVerticals",
+    // navItems: [
+    //   {
+    //     id: 1,
+    //     navItem: "Kal Freight",
+    //   },
+    //   {
+    //     id: 2,
+    //     navItem: "Kal Trailers",
+    //   },
+    // ],
+  },
+];
+export const MapData = [
+  {
+    id: 0,
+    city: 'Springdale',
+    state: 'AR',
+    Address: '2025 English Ave 46205 IN',
+    phone: '870-868-8686',
+    Email: 'antoniom@kalfreight.com',
+    Manager: 'Telly Ingram',
+    Maps: 'https://www.google.com/maps/place/2025+English+Ave,+Indianapolis,+IN+46201,+USA/@39.7591968,-86.1355487,15z/data=!4m5!3m4!1s0x886b507bb4588c77:0xd0b2698ed1a53b6d!8m2!3d39.7591968!4d-86.126794',
+    MAPID: [
+      {
+        id: 0,
+        long: '-86.126794',
+        lat: '39.7591968',
+      },
+    ],
+
   },
 ];
