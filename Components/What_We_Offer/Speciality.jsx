@@ -31,7 +31,7 @@ export const Speciality = () => {
               </h2>
             </div>
             <div className="lg:hidden block">
-              <div className="lg:relative lg:mt-4 self-start ">
+              <div className="lg:relative lg:mt-4 self-start md:pr-0 pr-8">
                 <Image
                   className="lg:absolute lg:inset-0 h-60 w-full lg:h-full object-cover object-center lg:rounded-tl-md  "
                   src={blacktire}
@@ -39,14 +39,11 @@ export const Speciality = () => {
                 />
               </div>
             </div>
-            <div
-              //   className="py-12 md:px-10 px-6 lg:px-0 max-w-3xl lg:max-w-md mx-auto col-span-2 "
-              className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left"
-            >
+            <div className="lg:py-12 md:px-10 px-6 lg:px-0 max-w-5xl  mx-auto col-span-2  text-center lg:text-left">
               <h2 className="text-3xl tracking-tight  text-black font-poppins font-semibold lg:block hidden">
                 <span className="block">Speciality</span>
               </h2>
-              <p className="text-black mt-5 lg:px-0 px-8">
+              <p className="text-black mt-5 lg:px-0 px-8  text-justify">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatibus architecto facere corporis vitae, voluptatem optio
                 molestiae neque omnis doloribus inventore nulla aliquid. Ipsum
@@ -142,8 +139,6 @@ export const Speciality = () => {
                 </div>
               </div>
             </div>
-
-            {/* The Phone and Email icons end */}
           </div>
         </div>
       </div>

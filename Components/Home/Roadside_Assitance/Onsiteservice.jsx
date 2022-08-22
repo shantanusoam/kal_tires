@@ -13,7 +13,7 @@ const Onsiteservice = () => (
       <div id="maingrid" className="lg:block hidden">
         <div
           id="grid"
-          className="grid gap-x-4    bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-4"
+          className="grid gap-x-4  bg-bg-white-1   grid-cols-onsiteTemplate pt-20 px-4"
         >
           {OnsiteGriddata.map((index) => (
             <div className="bg-bg-white-1 text-center" key={index.id}>

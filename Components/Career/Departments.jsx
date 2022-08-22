@@ -24,7 +24,7 @@ export const Departments = () => (
 
               <div
                 id="departmentmaingrid"
-                className="flex gap-4 xl:flex-nowrap flex-wrap xl:justify-center justify-evenly  flex-row"
+                className="flex gap-6 xl:flex-nowrap flex-wrap xl:justify-center justify-evenly  flex-row"
               >
                 {Departmentsdata.map((index) => (
                   <div id="departmentmaingrid" key={index.id}>
@@ -45,30 +45,29 @@ export const Departments = () => (
         </div>
 
         <div className="md:hidden">
-          <Swiper
-            spaceBetween={30}
-            centeredSlides
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            // navigation
-            modules={[Autoplay, Pagination, Navigation]}
-            className="mySwiper"
-          >
-            {Departmentsdata.map((index) => (
-              <SwiperSlide key={index.id}>
-                {' '}
-                <div>
-                  <div id="onsitemain">
-                    <div id="onsitemaininner" className="bg-white">
-                      <div id="maingrid">
+          <div>
+            <div id="onsitemain">
+              <div id="onsitemaininner" className="bg-white">
+                <div id="maingrid">
+                  <Swiper
+                    spaceBetween={0}
+                    centeredSlides
+                    autoplay={{
+                      delay: 2500,
+                      disableOnInteraction: false,
+                    }}
+                    // pagination={{
+                    //   clickable: true,
+                    // }}
+                    // navigation
+                    modules={[Autoplay, Pagination, Navigation]}
+                    className="mySwiper"
+                  >
+                    {Departmentsdata.map((index) => (
+                      <SwiperSlide key={index.id}>
                         <div
                           id="grid"
-                          className="flex gap-2 flex-nowrap  justify-center "
+                          className="flex gap-2 flex-nowrap  justify-center"
                         >
                           <div className=" text-center ">
                             <div className="flex justify-center">
@@ -78,13 +77,13 @@ export const Departments = () => (
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

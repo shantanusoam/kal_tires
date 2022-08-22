@@ -61,7 +61,7 @@ export const Services = () => (
 
     <div className="lg:hidden md:block hidden">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={0}
         centeredSlides
         autoplay={{
           delay: 2500,
@@ -275,7 +275,7 @@ export const Services = () => (
 
     <div className="md:hidden">
       <Swiper
-        spaceBetween={30}
+        spaceBetween={0}
         centeredSlides
         autoplay={{
           delay: 2500,

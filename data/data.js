@@ -632,7 +632,6 @@ export const IndustrialTiresdata = [
   },
 ];
 
-
 export const Servicesdata = [
   {
     id: 1,
@@ -673,7 +672,8 @@ export const Servicesdata = [
     id: 8,
     img: eights,
     heading: 'Scheduled Maintainance program',
-    
+  },
+];
 export const NavbarData = [
   {
     url: {
@@ -1060,6 +1060,5 @@ export const MapData = [
         lat: '39.7591968',
       },
     ],
-
   },
 ];
