@@ -38,9 +38,9 @@ const Onsiteservice = () => (
         slidesPerGroup={1}
         loop
         loopFillGroupWithBlank
-        pagination={{
-          clickable: false,
-        }}
+        // pagination={{
+        //   clickable: false,
+        // }}
         // navigation
         modules={[Pagination, Navigation, Autoplay]}
         autoplay={{
@@ -81,9 +81,9 @@ const Onsiteservice = () => (
         slidesPerGroup={1}
         loop
         loopFillGroupWithBlank
-        pagination={{
-          clickable: false,
-        }}
+        // pagination={{
+        //   clickable: false,
+        // }}
         // navigation
         modules={[Pagination, Navigation, Autoplay]}
         autoplay={{

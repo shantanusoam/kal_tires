@@ -36,6 +36,15 @@ import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
 import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
 import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
 
+import ones from '../Assets/Images/Whatweoffer/services/one.png';
+import twos from '../Assets/Images/Whatweoffer/services/two.png';
+import threes from '../Assets/Images/Whatweoffer/services/three.png';
+import fours from '../Assets/Images/Whatweoffer/services/four.png';
+import fives from '../Assets/Images/Whatweoffer/services/five.png';
+import sixs from '../Assets/Images/Whatweoffer/services/six.png';
+import sevens from '../Assets/Images/Whatweoffer/services/seven.png';
+import eights from '../Assets/Images/Whatweoffer/services/eight.png';
+
 export const HomeSliderData = [
   {
     id: 1,
@@ -623,6 +632,48 @@ export const IndustrialTiresdata = [
   },
 ];
 
+
+export const Servicesdata = [
+  {
+    id: 1,
+    img: ones,
+    heading: 'Tire & Wheel Balancing',
+  },
+  {
+    id: 2,
+    img: twos,
+    heading: 'Retread Services',
+  },
+  {
+    id: 3,
+    img: threes,
+    heading: 'Pick Up & Delivery Services',
+  },
+  {
+    id: 4,
+    img: fours,
+    heading: '24x7 Roadside Assistance',
+  },
+  {
+    id: 5,
+    img: fives,
+    heading: 'Truck & Trailer Alingment',
+  },
+  {
+    id: 6,
+    img: sixs,
+    heading: 'Mounted Wheel Program',
+  },
+  {
+    id: 7,
+    img: sevens,
+    heading: 'Heavy Duty Front-End Work',
+  },
+  {
+    id: 8,
+    img: eights,
+    heading: 'Scheduled Maintainance program',
+    
 export const NavbarData = [
   {
     url: {
@@ -1009,5 +1060,6 @@ export const MapData = [
         lat: '39.7591968',
       },
     ],
+
   },
 ];
