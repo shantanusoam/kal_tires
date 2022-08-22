@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import { BsPlus } from 'react-icons/bs';
+import { BiMinus } from 'react-icons/bi';
+import { Link } from 'react-scroll';
 import Map from '../../Assets/Map/index';
-
+import { NavbarData } from '../../data/data';
 import { useHover } from '../../Hooks/Hover';
-
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
 
+const Ddata = ['James', 'John', 'Jessica', 'Jamie'];
 // eslint-disable-next-line no-unused-vars
 const SidebarNav = styled.nav`
   background: #15171c;
@@ -19,8 +22,113 @@ const SidebarNav = styled.nav`
   transition: 350ms;
   z-index: 10;
 `;
+export const SidebarMenu = styled.ul`
+  display: flex;
+  flex-direction: column;
+  items-align: center;
+  justify-content: center;
+  padding-left: 2rem;
+`;
+export const SidebarLink = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding-right: 3rem;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+  }
+`;
+export const SidebarLinkR = styled.a`
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 85%;
+  padding: 1rem 1rem 1rem 0rem;
+  text-decoration: none;
+  // padding-right: 3rem;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    // color: #000000;
+    transition: 0.2s ease-in-out;
+  }
+`;
+export const Divlink = styled.div`
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  width: 85%;
+  font-size: 1rem;
+  padding: 1rem 1rem 1rem 0rem;
+  font-weight: 600;
+  text-decoration: none;
+  // padding-right: 3rem;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+  cursor: pointer;
+  &:hover {
+    // color: #000000;
+    transition: 0.2s ease-in-out;
+  }
+`;
+// use hover reducer to change the visibility on hover of the sidebar when dynimically created links
+const useHoverReducer = (initialState, reducer) => {
+  const [state, dispatch] = React.useReducer(reducer, initialState);
+  const [ref, isHovered] = useHover();
+  React.useEffect(() => {
+    if (isHovered) {
+      dispatch({ type: 'HOVER' });
+    } else {
+      dispatch({ type: 'UNHOVER' });
+    }
+  }, [isHovered]);
+  return [state, ref];
+};
+
 export const MapConatiner = () => {
   const isDesktop = useMediaQuery('(min-width: 768px)');
+  const [visibilities, setVisibilities] = React.useState(() =>
+    Ddata.map((x) => false)
+  );
+
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // Update the document title using the browser API
+    Ddata.map((x) => false);
+  }, [visibilities]);
+
+  console.log(`visibilities: ${visibilities}`);
+  const handleClick = (event) => {
+    Ddata.map((x) => false);
+    const index = parseInt(event.currentTarget.dataset.index, 10);
+    console.log(`index ${index}`);
+    const newVisibilities = [...visibilities];
+
+    console.log(`newVisibilities  ${newVisibilities}`);
+
+    newVisibilities[index] = !newVisibilities[index];
+    setVisibilities(newVisibilities);
+  };
+  const [Services, setServices] = useState(false);
+  const [NewsRoom, setNewsRoom] = useState(false);
+  const [AboutUs, setAboutUs] = useState(false);
+  const [BusinessVerticles, setBusinessVerticles] = useState(false);
+
   const [Fontana, isFontana] = useHover();
   const [Bakersfield, isBakersfield] = useHover();
   const [SanMarcos, isSanMarcos] = useHover();
@@ -111,404 +219,228 @@ export const MapConatiner = () => {
                 We serve you at multiple location
               </div>
             </div>
-            <div className="w-full lg:mt-8 mt-2">
-              <div className="m-2 lg:w-1/3 w-1/2">
-                {' '}
-                <div id="mainnewnavcontainer">
-                  <div id="innermainnavcontainer">
-                    <div className="group inline-block w-full">
-                      <button
-                        type="button"
-                        className="outline-none focus:outline-none  px-3 py-1 bg-white   rounded-md flex items-center w-full h-12"
-                      >
-                        <span className="pr-1 font-semibold flex-1">
-                          Canada
-                        </span>
-                        <span>
-                          <svg
-                            className="fill-current h-4 w-4 transform group-hover:-rotate-180
- transition duration-150 ease-in-out"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                        </span>
-                      </button>
-                      <ul
-                        className="bg-white  rounded-sm transform scale-0 group-hover:scale-100 absolute
- transition duration-150 ease-in-out origin-top min-w- w-max z-10"
-                      >
-                        <span className="w-max mx-4 text-white">Canada</span>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              British Columbia
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={abbotsford}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">
-                                  Abbotsford
-                                </div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              Alberta
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Calgary}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">Calgary</div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
+            <SidebarMenu>
+              <SidebarLinkR to="/">Home</SidebarLinkR>
+
+              <Divlink
+                onClick={() => {
+                  setBusinessVerticles(!BusinessVerticles);
+                  setAboutUs(false);
+                  setNewsRoom(false);
+                  setServices(false);
+                }}
+              >
+                Business Verticals
+                <span>
+                  {BusinessVerticles ? <BiMinus /> : <BsPlus />}
+
+                  {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
+                </span>
+              </Divlink>
+              <div
+                className={`Transition-Height-${
+                  BusinessVerticles ? 'in' : 'out'
+                }`}
+              >
+                <ul>
+                  {BusinessVerticles
+                    ? NavbarData[0].navItems.map((data) => (
+                        <a href={data.url.url}>
+                          <li>
+                            <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                              {data.navItem}
+                              {/* {data.navItems
+                ? data.navItems.map((data) => (
+                    <div className=" text-Heading  justify-center text-center items-center">
+                      {data.navItem}
                     </div>
-                  </div>
+                  ))
+                : null} */}
+                            </div>
+                          </li>
+                        </a>
+                      ))
+                    : null}
+                </ul>
+              </div>
+
+              <Divlink
+                onClick={() => {
+                  setAboutUs(!AboutUs);
+                  setBusinessVerticles(false);
+
+                  setNewsRoom(false);
+                  setServices(false);
+                }}
+              >
+                About Us
+                <span>{AboutUs ? <BiMinus /> : <BsPlus />}</span>
+              </Divlink>
+
+              <div className={`Transition-Height-${AboutUs ? 'in' : 'out'}`}>
+                {AboutUs
+                  ? NavbarData[1].navItems.map((data) =>
+                      data.url.link === 'a' ? (
+                        <a href={data.url.url} className="w-full">
+                          <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                            {data.navItem}
+                          </div>
+                        </a>
+                      ) : (
+                        <Link
+                          to={data.url.url}
+                          smooth
+                          duration={1000}
+                          spy
+                          exact
+                          offset={-80}
+                          className="cursor-pointer"
+                        >
+                          <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                            {data.navItem}
+                          </div>
+                        </Link>
+                      )
+                    )
+                  : null}
+              </div>
+
+              <Divlink
+                onClick={() => {
+                  setNewsRoom(!NewsRoom);
+                  setBusinessVerticles(false);
+                  setAboutUs(false);
+
+                  setServices(false);
+                }}
+              >
+                News Room
+                <span>{NewsRoom ? <BiMinus /> : <BsPlus />}</span>
+              </Divlink>
+              <div className={`Transition-Height-${NewsRoom ? 'in' : 'out'}`}>
+                {' '}
+                {NewsRoom
+                  ? NavbarData[2].navItems.map((data) =>
+                      data.url.link === 'a' ? (
+                        <a href={data.url.url} className="w-full">
+                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                            {data.navItem}
+                          </div>
+                        </a>
+                      ) : (
+                        <Link
+                          to={data.url.url}
+                          smooth
+                          duration={1000}
+                          spy
+                          exact
+                          offset={-80}
+                          className="cursor-pointer"
+                        >
+                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                            {data.navItem}
+                          </div>
+                        </Link>
+                      )
+                    )
+                  : null}
+              </div>
+
+              <Divlink
+                onClick={() => {
+                  setServices(!Services);
+                  setBusinessVerticles(false);
+                  setAboutUs(false);
+                  setNewsRoom(false);
+                }}
+              >
+                Services
+                <span>{Services ? <BiMinus /> : <BsPlus />}</span>
+              </Divlink>
+              <div className={`Transition-Height-${Services ? 'in' : 'out'}`}>
+                {Services
+                  ? NavbarData[3].navItems.map((data) =>
+                      data.url.link === 'a' ? (
+                        <a href={data.url.url} className="w-full">
+                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                            {data.navItem}
+                          </div>
+                        </a>
+                      ) : (
+                        <Link
+                          to={data.url.url}
+                          smooth
+                          duration={1000}
+                          spy
+                          exact
+                          offset={-80}
+                          className="cursor-pointer"
+                        >
+                          <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                            {data.navItem}
+                          </div>
+                        </Link>
+                      )
+                    )
+                  : null}
+              </div>
+              <div>
+                <div className="border">
+                  {Ddata.map((value, index) => (
+                    <h1
+                      data-index={index}
+                      onClick={handleClick}
+                      className={visibilities[index] ? 'selected' : undefined}
+                    >
+                      Hello {value}, you are{' '}
+                      {visibilities[index] ? 'visible' : 'hidden'}!
+                    </h1>
+                  ))}
                 </div>
               </div>
-            </div>
-            <div className="w-full">
-              <div className="m-2 lg:w-1/3 w-1/2">
-                {' '}
-                <div id="mainnewnavcontainer">
-                  <div id="innermainnavcontainer">
-                    <div className="group inline-block w-full">
-                      <button
-                        type="button"
-                        className="outline-none focus:outline-none z-0  px-3 py-1 hover:bg-yellow-600 bg-white  rounded-md flex items-center w-full h-12"
-                      >
-                        <span className="pr-1 font-semibold flex-1">USA</span>
-                        <span>
-                          <svg
-                            className="fill-current h-4 w-4 transform group-hover:-rotate-180
- transition duration-150 ease-in-out"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                        </span>
-                      </button>
-                      <ul
-                        className="bg-white  rounded-sm transform scale-0 group-hover:scale-100 absolute
- transition duration-150 ease-in-out origin-top min-w- w-max"
-                      >
-                        <span className="w-max mx-4 text-white">USA</span>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              California
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0 top-16
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Fontana}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">Fontana</div>
-                              </li>
-                            </li>
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Bakersfield}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">
-                                  Bakersfield
-                                </div>
-                              </li>
-                            </li>
-                            <li className="px-3 py-1 hover:bg-yellow-600">
-                              <li className="sc-bczRLJ gbaUcE" ref={SanMarcos}>
-                                <div className="sc-gsnTZi evWpLA">
-                                  San Marcos
-                                </div>
-                              </li>
-                            </li>
-                            {/* <li class="px-3 py-1 hover:bg-yellow-600">
-                              <li class="sc-bczRLJ gbaUcE" ref={Stockton}>
-                                <div class="sc-gsnTZi evWpLA">Stockton</div>
-                              </li>
-                            </li> */}
-                            <li className="px-3 py-1 hover:bg-yellow-600">
-                              <li className="sc-bczRLJ gbaUcE" ref={Lathrop}>
-                                <div className="sc-gsnTZi evWpLA"> Lathrop</div>
-                              </li>
-                            </li>
-                            <li className="px-3 py-1 hover:bg-yellow-600">
-                              <li className="sc-bczRLJ gbaUcE" ref={Calexico}>
-                                <div className="sc-gsnTZi evWpLA">Calexico</div>
-                              </li>
-                            </li>
-                            {/* <li class="px-3 py-1 hover:bg-yellow-600">
-                              <li class="sc-bczRLJ gbaUcE" ref={Almondfontana}>
-                                <div class="sc-gsnTZi evWpLA">AlmondAve</div>
-                              </li>
-                            </li> */}
-                            {/* <li class="px-3 py-1 hover:bg-yellow-600">
-                              <li class="sc-bczRLJ gbaUcE" ref={ValleyFontana}>
-                                <div class="sc-gsnTZi evWpLA">ValleyBlvd</div>
-                              </li>
-                            </li> */}
-                          </ul>
-                        </li>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              Georgia
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Atlanta}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">Atlanta</div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              Indiana
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Indianapolis}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">
-                                  Indianapolis
-                                </div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              New Jersey
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Hampton}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">Hampton</div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              Arkansas
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Springdale}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">
-                                  Springdale
-                                </div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="rounded-sm px-6 py-1 hover:bg-yellow-600 flex justify-center items-center">
-                          <button
-                            type="button"
-                            className="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12"
-                          >
-                            <span className="pr-1 font-semibold flex-1">
-                              Texas
-                            </span>
-                            <span className="mr-auto">
-                              <svg
-                                className="fill-current h-4 w-4 transform hover:-rotate-180
- transition duration-150 ease-in-out"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            className=" bg-white border rounded-sm absolute  right-0
-transition duration-150 ease-in-out origin-top-left
-min-w-32
-"
-                          >
-                            <li
-                              className="px-3 py-1 hover:bg-yellow-600"
-                              ref={Arlington}
-                            >
-                              <li className="sc-bczRLJ gbaUcE">
-                                <div className="sc-gsnTZi evWpLA">
-                                  Arlington
-                                </div>
-                              </li>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              <SidebarLinkR to="ContactSection">
+                <Link
+                  to="ContactSection"
+                  smooth
+                  duration={1000}
+                  spy
+                  exact
+                  offset={-80}
+                >
+                  Careers
+                </Link>
+              </SidebarLinkR>
+              <SidebarLinkR to="ContactSection">
+                <Link
+                  to="ContactSection"
+                  smooth
+                  duration={1000}
+                  spy
+                  exact
+                  offset={-80}
+                >
+                  Contact Us
+                </Link>
+              </SidebarLinkR>
+              <SidebarLinkR to="mainmapcontainer">
+                <Link
+                  to="mainmapcontainer"
+                  smooth
+                  duration={1000}
+                  spy
+                  exact
+                  offset={-80}
+                >
+                  Locations
+                </Link>
+              </SidebarLinkR>
+
+              {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
+          <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
+          <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
+          <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
+          <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
+            </SidebarMenu>
           </div>
         </div>
       </div>

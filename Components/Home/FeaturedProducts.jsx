@@ -194,7 +194,6 @@ const FeaturedProducts = () => {
                   disableOnInteraction: false,
                 }}
                 onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
               >
                 {Feaaturedata.map((data) => (
                   <SwiperSlide key={data.id}>
