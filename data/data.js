@@ -35,7 +35,6 @@ import two from '../Assets/Images/Whatweoffer/Industrialtires/two.png';
 import three from '../Assets/Images/Whatweoffer/Industrialtires/three.png';
 import four from '../Assets/Images/Whatweoffer/Industrialtires/four.png';
 import five from '../Assets/Images/Whatweoffer/Industrialtires/five.png';
-
 import ones from '../Assets/Images/Whatweoffer/services/one.png';
 import twos from '../Assets/Images/Whatweoffer/services/two.png';
 import threes from '../Assets/Images/Whatweoffer/services/three.png';
